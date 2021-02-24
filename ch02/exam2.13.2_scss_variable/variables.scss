@@ -1,0 +1,15 @@
+$my_color_font: #0000ff;
+$my_color_id: #00ffaa;
+$my_color_a: #ffaa00;
+
+#myId{
+    color: $my_color_font;
+  	background-color: $my_color_a;
+  	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+a{
+  color: $my_color_font;
+  background-color: $my_color_id;
+  border: 1px solid rgba(0, 0, 0, 0.2);  
+}

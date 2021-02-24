@@ -1,0 +1,27 @@
+<html>
+<head>
+	<script language="javascript">
+		function test()
+		{
+			var inputElements= document.documentElement.getElementsByTagName("input");
+			console.log(inputElements);
+			var custName = inputElements[0];
+			var custAge = inputElements[1];
+			console.log(custName);
+			console.log(custAge);
+			var custNameName = custName.name;
+			var custAgeName = custAge.name;
+			var custNameValue = custName.value;
+			var custAgeValue = custAge.value;
+			console.log(custNameName + ":"+ custNameValue);
+			console.log(custAgeName + ":" + custAgeValue);
+			
+		}
+	</script>
+</head>
+<body>
+	<input type="text" name="CustName" size="20" value="È«±æµ¿"><br>
+	<input type="text" name="CustAge" size="5" value="23"><br>
+	<input type="button" id="btnSubmit" value="È®ÀÎ" onclick="javascript:test();">
+</body>
+</html>

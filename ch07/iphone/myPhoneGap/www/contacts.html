@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Example</title>
+        
+        <link rel="stylesheet" href="index.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+            <script type="text/javascript" charset="utf-8">
+                
+                // Wait for PhoneGap to load
+                //
+                document.addEventListener("deviceready", onDeviceReady, false);
+                
+                // PhoneGap is ready
+                //
+                function onDeviceReady() {
+                    // create a new contact
+                    var contact = navigator.contacts.create();
+                    
+                    // store contact phone numbers in ContactField[]
+                    var phoneNumbers = [3];
+                    phoneNumbers[0] = new ContactField('work', '212-555-1234', false);
+                    phoneNumbers[1] = new ContactField('mobile', '917-555-5432', true); // preferred number
+                    phoneNumbers[2] = new ContactField('home', '203-555-7890', false);
+                    contact.phoneNumbers = phoneNumbers;
+                    
+                    // save the contact
+                    contact.save();
+                    
+                    // search contacts, returning display name and phone numbers
+                    var options = new ContactFindOptions();
+                    options.filter="";
+                    filter = ["displayName","phoneNumbers"];
+                    navigator.contacts.find(filter, onSuccess, onError, options);
+                }
+                
+                // onSuccess: Get a snapshot of the current contacts
+                //
+                function onSuccess(contacts) {
+                    for (var i=0; i<contacts.length; i++) {
+                        // display phone numbers
+                        for (var j=0; j<contacts[i].phoneNumbers.length; j++) {
+                            alert("Type: " + contacts[i].phoneNumbers[j].type + "\n" + 
+                                  "Value: "  + contacts[i].phoneNumbers[j].value + "\n" + 
+                                  "Preferred: "  + contacts[i].phoneNumbers[j].pref);
+                        }
+                    }
+                };
+                
+                // onError: Failed to get the contacts
+                //
+                function onError(contactError) {
+                    alert('onError!');
+                }
+            
+            </script>
+    </head>
+    <body>
+		<div class="topBar">
+			<a href="index.html">
+				<span class="back_button">Back</span>
+                <span class="pageTitle">Contacts</span>	
+			</a>
+		</div>
+        <p>Find Contacts</p>
+    </body>
+</html>

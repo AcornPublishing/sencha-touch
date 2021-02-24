@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=euc-kr">    
+    <title>Hello World</title>
+    <link rel="stylesheet" href="../lib/touch/resources/css/sencha-touch.css" type="text/css">
+    <script type="text/javascript" src="../lib/touch/sencha-touch.js"></script>
+    <script type="text/javascript" src="src/index.js"></script> 
+    
+    <script language="javascript">
+        function callHtml()
+        {
+            alert("여기는 HTML입니다.");
+        }
+        function callSenchaTouch()
+        {
+            sencha.panel.callSenchaTouch();
+        }        
+    </script>
+</head>
+<body>
+        <BR>
+        <BR>
+        <CENTER>
+        Here is HTML
+        <BR>    
+        <div id="show_div" width="400" height="400"
+            align="center" >
+        </div>  
+        <BR>
+        <input type="button" onclick="javascript:callSenchaTouch();" value="호출">
+        </CENTER>
+</body>
+</html>

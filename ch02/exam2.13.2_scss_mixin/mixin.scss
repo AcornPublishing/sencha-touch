@@ -1,0 +1,15 @@
+/* Mixin */
+
+@mixin font_size( $size, $color){
+	background:$color;
+	-webkit-border-radius: $size;
+}
+
+#style1{	
+	@include font_size(10px, #00FFFF);
+}
+
+#style2{	
+	@include font_size(14px, #FF00FF);
+}
+	

@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, target-densityDpi=device-dpi">
+<script type="text/javascript" src="hybrid.js"></script>
+<body>
+<form>
+<BR>
+<B>Mobile 단말 APP과의 연동 구현</B><BR>
+<hr>
+<B>ALERT창</B><BR>
+	
+	  <input type="button" 
+	  	onClick="javascript:alert('알림창을 띄웁니다.')" 
+	  	value="알림창"><BR>
+	  <input type="button" 
+	  	onClick="javascript:aaa=confirm('confirm창을 띄웁니다.'); alert(aaa);" 
+	  	value="Confirm창"><BR>	  	
+<hr>
+<B>Native호출</B><BR>
+	SendMessage:<input type="text" name="txtSend" size="12" value="Native호출">
+	  <input type="button" 
+	  	onClick="javascript:callNative(document.forms[0].txtSend.value)" 
+	  	value="Native호출"><BR>
+	ReceiveMessage:<input type="text" name="txtReceive" size="12"><BR>
+<hr>
+<B>User화면호출</B><BR>
+	SendMessage:<input type="text" name="txtSendUserView" size="12" value="사용자화면호출">
+	  <input type="button" 
+	  	value="CallNative" 
+	  	onClick="javascript:callUserView(document.forms[0].txtSendUserView.value)"><BR>
+	ReceiveMessage:<input type="text" name="txtReceiveUserView" size="12"><BR>
+<hr>
+</form>
+</body>
+</html>	

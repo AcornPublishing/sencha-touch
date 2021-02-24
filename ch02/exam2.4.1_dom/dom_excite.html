@@ -1,0 +1,69 @@
+<html>
+<head>
+<script language="javascript">
+	
+	var count=0;
+	var elementDiv1;
+	var imgElement;
+	var cardElement = new Array(6);
+	var inputElement;
+	function createElement()
+	{
+		elementDiv1 = document.documentElement.getElementsByTagName("div")[0];
+		imgElement = document.createElement("img");			
+		imgElement.name="chunhyang";
+		imgElement.width="80";
+		imgElement.height="80";
+		imgElement.src="./img/춘향.png";
+		for(i=0; i< 6; i++)
+		{
+			cardElement[i] = document.createElement("img");	
+			cardElement[i].name = "add";
+			cardElement[i].width="50";
+			cardElement[i].height="80";
+			cardElement[i].src="./img/go" + (i+1) + ".png";
+		}				
+		inputElement = document.createElement("input");			
+		inputElement.id="state";
+		inputElement.value="춘향이 남자친구 " + (count+1) + " 명....";
+		var textElement = document.createElement("br");		
+		elementDiv1.appendChild(imgElement);
+		elementDiv1.appendChild(cardElement[count]);
+		elementDiv1.appendChild(textElement);
+		elementDiv1.appendChild(inputElement);
+		
+	}
+	
+	function updElement()
+	{
+		if(elementDiv1.hasChildNodes())
+		{
+			for(i=0;i<elementDiv1.childNodes.length;i++)
+			{
+				if(elementDiv1.childNodes[i].name=="add")
+				{
+					elementDiv1.replaceChild(cardElement[count], elementDiv1.childNodes[i]);					
+				}
+			}
+		}
+		
+		inputElement.value = "춘향이 남자친구 " + (count+1) + " 명....";
+		loop();
+	}	
+	function loop()
+	{
+		count++;
+		if(count==6)
+			count = 0;
+		setTimeout("updElement()", 1000);		
+		
+	}	
+</script>
+</head>
+<body onload="javascript:createElement();loop();">
+	<form>
+		<div name="div1">
+		</div>
+	</form>
+</body>
+</html>

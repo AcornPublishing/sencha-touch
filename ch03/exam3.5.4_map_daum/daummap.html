@@ -1,0 +1,72 @@
+<script type="text/javascript" src="http://apis.daum.net/maps/maps3.js?apikey=DAUM_MAPS_DEMO_APIKEY" charset="euc-kr"></script> 
+
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, target-densityDpi=device-dpi">
+<title>Daum 지도 V3</title> 
+<style type="text/css">
+html,body,#map {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%
+}
+</style>
+<script type="text/javascript" src="http://apis.daum.net/maps/maps3.js?apikey=DAUM_MAPS_DEMO_APIKEY" charset="euc-kr"></script> 
+
+<script type="text/javascript"> 
+    var mMap = {
+	    pos_y:37.537900,
+	    pos_x:127.00500,
+	    info:'Sencha Touch',
+		init:function() {
+			map = new daum.maps.Map(
+document.getElementById('map'), {
+				center: new daum.maps.LatLng(
+Number(this.pos_y), 
+Number(this.pos_x))
+			});
+			var zoomControl = 
+new daum.maps.ZoomControl();
+map.addControl(zoomControl, 
+daum.maps.ControlPosition.RIGHT);
+var mapTypeControl = 
+new daum.maps.MapTypeControl();
+map.addControl(mapTypeControl, 
+daum.maps.ControlPosition.TOPRIGHT);
+			//원 그리기
+                        var circle = new daum.maps.Circle({
+                        center : new daum.maps.LatLng(
+this.pos_y, this.pos_x),
+                        radius : 200,
+                strokeWeight : 4,
+                strokeColor : "#ff0000"
+            });
+            circle.setMap(map);
+            marker = new daum.maps.Marker({
+                position: new daum.maps.LatLng(
+this.pos_y , this.pos_x )
+            });
+            infowindow  = new daum.maps.InfoWindow({
+                content: this.info ,
+                removable : true
+            });
+            console.log(infowindow );
+            infowindow.open(map, marker );
+
+            daum.maps.event.addListener(
+marker , "click", function( ) {
+                infowindow.open(map, marker );
+            });
+            marker.setMap(map);		
+		}		
+	}	
+</script> 
+</head> 
+<body onload="javascript:mMap.init();">
+	<div id="map"></div>	
+</body> 
+</html>

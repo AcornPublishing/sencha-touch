@@ -1,0 +1,12 @@
+.x-list .x-list-item {
+	position: relative;
+	padding: 0.5em 0.8em;
+	min-height: 2.6em;
+	display: -webkit-box;
+	-webkit-box-align: left;
+	-webkit-border-radius: 4em;
+	border-radius: 2em;
+	-webkit-box-pack: left;
+	display: box;
+	margin: 0.2em;
+}

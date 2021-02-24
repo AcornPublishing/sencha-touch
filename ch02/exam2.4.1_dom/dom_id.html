@@ -1,0 +1,25 @@
+<html>
+<head>
+	<script language="javascript">
+		function test()
+		{
+
+			var custName = document.getElementById("CustName");
+			var custAge = document.getElementById("CustAge");
+			console.log(custName);
+			console.log(custAge);
+			var custNameName = custName.id;
+			var custAgeName = custAge.id;
+			var custNameValue = custName.value;
+			var custAgeValue = custAge.value;
+			console.log(custNameName + ":"+ custNameValue);
+			console.log(custAgeName + ":" + custAgeValue);
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="CustName" size="20" value="È«±æµ¿"><br>
+	<input type="text" id="CustAge" size="5" value="23"><br>
+	<input type="button" id="btnSubmit" value="È®ÀÎ" onclick="javascript:test();">
+</body>
+</html>

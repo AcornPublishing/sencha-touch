@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Notification Example</title>
+        
+        <link rel="stylesheet" href="index.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            
+            // Wait for PhoneGap to load
+            //
+            document.addEventListener("deviceready", onDeviceReady, false);
+            
+            // PhoneGap is ready
+            //
+            function onDeviceReady() {
+                // Empty
+            }
+            
+            // alert dialog dismissed
+            function alertDismissed() {
+                // do something
+            }
+            
+            // Show a custom alert
+            //
+            function showAlert() {
+                navigator.notification.alert(
+                                             'You are the winner!',  // message
+                                             alertDismissed,         // callback
+                                             'Game Over',            // title
+                                             'Done'                  // buttonName
+                                             );
+            }
+            
+            </script>
+    </head>
+    <body>
+        <div class="topBar">
+			<a href="index.html">
+				<span class="back_button">Back</span>
+                <span class="pageTitle">Notification</span>	
+			</a>
+		</div>
+        
+        <div class="menu">
+        <p><a href="#" onclick="showAlert(); return false;">Show Alert</a></p>
+        </div>
+    </body>
+</html>

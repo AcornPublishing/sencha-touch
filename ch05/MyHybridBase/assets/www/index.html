@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, target-densityDpi=device-dpi">
+<script type="text/javascript" src="hybrid.js"></script>
+</head>
+<body>
+<form>
+	<B>Mobile 단말과의 연동 구현</B><BR>
+	<hr>
+	<B>전화걸기</B><BR>
+	<input type="text" name="Fo_Phone" size="12" VALUE="01026239687"><BR>
+	<input type="button" value="전화" onClick="javascript:callPhone()"><BR>
+	<hr>
+	<B>SMS문자보내기</B><BR>
+	<input type="text" name="Fo_Sms" size="12" VALUE="01026239687"><BR>
+	<input type="button" value="SMS보내기" onClick="javascript:callSms(document.forms[0].Fo_Sms.value,'안녕하세요')"><BR>
+	<hr>
+	<B>카메라호출</B><BR>
+	<input type="button" value="카메라호출" onClick="javascript:callCamera()">
+	<hr>
+	<B>네트워크상태체크</B><BR>
+	<input type="button" value="네트워크상태체크" onClick="javascript:callNetworkState('receiveNetworkState')">
+	<hr>
+	<B>위도,경도 가져오기</B><BR>
+	<input type="button" value="위도경도조회" onClick="javascript:callLocationPos('receiveLocationPos')">
+	<hr>
+	<B>MoviePlayer</B><BR>
+	<input type="button" value="동영상 Player" 
+		onClick="javascript:callMoviePlayer('http://goodsencha.iptime.org:8080/book/part5/space.mp4')">
+	<hr>
+	<B>File Upload</B><BR>
+	<input type="text" name="Fo_httpaddr" size="40" VALUE="http://goodsencha.iptime.org:8080/book/part5/fileupload.jsp"><BR>
+	<input type="text" name="Fo_filename" size="40" VALUE="/sdcard/01234568.png"><BR>
+	<input type="button" value="Upload" onClick="javascript:callFileUpload(document.forms[0].Fo_httpaddr.value, document.forms[0].Fo_filename.value)"><BR>
+	<hr>
+</form>
+</body>
+</html>	

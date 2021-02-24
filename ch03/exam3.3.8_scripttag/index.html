@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<script language="javascript">
+		function callScriptTag()
+		{
+			var myHead = document.getElementsByTagName("head").item(0);
+			var myScript = document.createElement("script");
+			myScript.setAttribute("type", "text/javascript");
+			myScript.setAttribute("src", "http://127.0.0.1:8080/book/part3/3.3.8_scripttag/target.jsp");
+			myHead.appendChild(myScript);			
+		}
+		function callScriptTagFunc()
+		{
+			var returnValue = serverFunc();
+			alert(returnValue);
+		}	
+		</script>
+	</head>
+	
+	<body onload="javascript:callScriptTag();">
+		<center><BR><BR>
+		<a href="javascript:callScriptTagFunc()">ScriptTag 가져오기</a>
+	</body>
+</html>
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+    <script language="javascript" >
+        var xmlHttpRequest = new XMLHttpRequest();
+        
+        function callRequest()
+        {
+            var firstNum = document.getElementById("firstNum").value;
+            var secondNum = document.getElementById("secondNum").value;
+            
+            xmlHttpRequest.open("GET", "ajax.jsp?firstNum=" + 
+                escape(firstNum)+"&secondNum="+ escape(secondNum),  true);
+            xmlHttpRequest.onreadystatechange=updatePage;
+            xmlHttpRequest.send(null);
+        } 
+        
+        function updatePage()
+        {
+            if(xmlHttpRequest.readyState == 4)
+            {   
+                if(xmlHttpRequest.status == 200)
+                {
+                    document.getElementById("calcResult").value = 
+                        xmlHttpRequest.responseText;                        
+                }
+                else
+                {
+                    document.getElementById("calcResult").value = 
+                        '장애발생';
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="firstNum"   size="4"><BR>
+    <input type="text" id="secondNum"  size="4"><BR>
+    <input type="button" value="AJAX호출 (계산하기)" 
+        onclick="javascript:callRequest();">
+    <hr>
+    <input type="text" id="calcResult" size="24">       
+</body>
+</html>

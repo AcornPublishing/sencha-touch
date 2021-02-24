@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, target-densityDpi=device-dpi">
+<script type="text/javascript" src="phonegap-1.0.0.js"></script>
+<script type="text/javascript" src="hybrid.js"></script>
+</head>
+<body>
+<form>
+	<h1>PhoneGap의 사용</h1>
+	<hr>
+	<B>전화걸기</B><BR>
+	<a href="tel:01026239687">전화걸기</a>
+	<hr>
+	<B>SMS문자보내기</B><BR>
+	<a href="sms:01026239687">SMS보내기</a>
+	<hr>
+	<B>카메라호출</B><BR>
+	<input type="button" value="카메라호출" onClick="javascript:callCamera()">
+	<hr>
+	<B>네트워크상태체크</B><BR>
+	<input type="button" value="네트워크상태체크" onClick="javascript:callNetworkState('receiveNetworkState')">
+	<hr>
+	<B>위도,경도 가져오기</B><BR>
+	<input type="button" value="위도경도조회" onClick="javascript:callLocationPos('receiveLocationPos')">
+	<hr>
+	<B>파일 업로드</B><BR>
+	<input type="button" value="Upload" onClick="javascript:callFileUpload()"><BR>
+	<hr>
+</form>
+</body>
+</html>	

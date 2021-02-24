@@ -1,0 +1,44 @@
+@import 'sencha-touch/default/all';
+
+// Lists
+$list-bg-color: #eee;
+$list-color: #333;
+$list-pressed-color: #ddd;
+$list-active-gradient: 'recessed';
+$list-header-bg-color: #999;
+$list-header-gradient: 'bevel';
+
+@include sencha-panel;
+@include sencha-buttons;
+@include sencha-toolbar-forms;
+@include sencha-list;
+@include sencha-layout;
+@include sencha-form;
+@include sencha-msgbox;
+@include sencha-toolbar;
+
+/*
+@include sencha-picker;
+@include sencha-tabs;
+@include sencha-carousel;
+@include sencha-indexbar;
+@include sencha-loading-spinner;
+@include sencha-sheet;
+@include sencha-list-paging;
+@include sencha-list-pullrefresh;
+*/
+
+.x-list .x-list-item {
+	position: relative;
+	color: blue;
+	padding: 0.5em 0.8em;
+	min-height: 2.6em;
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-border-radius: 3em;
+	border-radius: 1em;
+	-webkit-box-pack: center;
+	display: box;
+	background: lightBlue;
+	margin: 0.2em;
+}

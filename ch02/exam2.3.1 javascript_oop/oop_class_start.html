@@ -1,0 +1,24 @@
+<html>
+<head>
+	<script language="javascript">
+	var customer = {
+		id:111,
+		name:'-',
+		
+		getName:function()
+		{
+			alert(this.name);
+			return this.name;
+		},
+		setName:function(name)
+		{
+			this.name= name;					
+		}			
+	};
+	</script>
+</head>
+<body>
+	<input type="button" value="설정" onClick="javascript:customer.setName('홍길동')">
+	<input type="button" value="가져오기" onClick="javascript:customer.getName();">
+</body>
+</html>

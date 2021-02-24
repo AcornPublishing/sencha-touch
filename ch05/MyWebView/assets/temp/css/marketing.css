@@ -1,0 +1,58 @@
+/************************* 수신금리가이드 **************************/
+section [data-marketing="rate-guide"]{padding:0 0 10px 0;}
+article[data-marketing="rate-guide"] h1{margin:0 0 20px 0;padding:6px 0 4px 25px;border-top:solid 1px #D0D2D3;border-bottom:solid 1px #d0d2d3;
+background: -moz-linear-gradient(top, #f3f5f7 0%, #ebedef 49%, #e4e6e8 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3f5f7), color-stop(49%,#ebedef), color-stop(100%,#e4e6e8));}
+article[data-marketing="rate-guide"] h1 strong {background:url("../img/bul_blue_s.png") no-repeat 0 6px;background-size:3px auto;padding-left:10px;}
+article[data-marketing="rate-guide"] h1+a{margin:0 20px 5px 20px;}
+article[data-marketing="rate-guide"] a:last-child{margin:0 20px 20px 20px;}
+
+
+/************************* 외환계산기 fieldset 타입1 **************************/
+article[data-marketing="field-type1"] [data-h1="type1"]{margin:15px 0 0 15px;}
+article[data-marketing="field-type1"] [data-h1="type1"]{margin:15px 0 0 15px;}
+article[data-marketing="field-type1"] [data-h1="type1"]+form>fieldset:first-child{padding:5px 0 5px 10px;}
+article[data-marketing="field-type1"] fieldset{padding:15px 0 5px 10px;border-bottom:solid 1px #ddd;}
+article[data-marketing="field-type1"] legend{display:block;float:left;width:60px;font-weight:bold;letter-spacing:0;margin-top:2px;}
+article[data-marketing="field-type1"] legend.type1{width:127px;}
+article[data-marketing="field-type1"] legend.type1+.m_b1{margin:-5px 0 4px 90px;}
+article[data-marketing="field-type1"] form fieldset:first-child label{width:105px ! important;letter-spacing:-2px;}
+article[data-marketing="field-type1"] form fieldset:first-child+fieldset label{width:95px ! important;}
+article[data-marketing="field-type1"] .ui-btn-text{color:#666 ! important;text-shadow:none ! important;box-shadow:none ! important;}
+article[data-marketing="field-type1"] .ui-btn-active .ui-btn-text{color:#2B417C ! important;}
+article[data-marketing="field-type1"] div[data-form="select1"]{margin:-5px 0 0 70px;padding:0 0 0 0;text-shadow:none ! important;box-shadow:none ! important;}
+article[data-marketing="field-type1"] input[data-form="input2"]{font-size:14px;}
+article[data-marketing="field-type1"] .m_b1{margin:-5px 0 4px 70px;}
+article[data-marketing="field-type1"] .m_b1 em{display:inline-block;margin:0 10px 4px 20px;}
+article[data-marketing="field-type1"] .m_b1 b{display:inline-block;width:30px;font-weight:normal;}
+article[data-marketing="field-type1"]>li:first-child{height:30px;}
+article[data-marketing="field-type1"] [data-form="radio1"]+div{color:#2B417C;font-weight:normal;display:block ! important;margin:0 0 0 19px ! important;height:30px;overflow:hidden;}
+article[data-marketing="field-type1"] li:nth-of-type(2) input[data-form="input2"]{margin:-15px 0 0 0;}
+article[data-marketing="field-type1"] li:nth-of-type(3){padding:5px 0 0 0;}
+article[data-marketing="field-type1"] li:nth-of-type(3) input[data-form="input2"]{margin:-7px 0 0 0;}
+article[data-marketing="field-type1"]>form>a:last-child{margin:20px 50px;}
+.ui-select .ui-btn select, .ui-select .ui-btn select p {text-shadow:none ! important;box-shadow:none ! important;}
+
+
+article[data-marketing="field-type1"].type1 [data-form="radio1"] label{width:95px;padding:3px 0 0 0;}
+article[data-marketing="field-type1"] form fieldset.type1 label{width:200px ! important;padding:3px 0 0 0;}
+
+article[data-marketing="field-type1"].type2 legend{width:80px;}
+article[data-marketing="field-type1"].type2 .m_b1{margin:-5px 0 4px 80px;}
+article[data-marketing="field-type1"].type2>form>fieldset>.m_b1 input[style="width:42px;"]:first-child{margin:0 0 0 44px;}
+
+article[data-marketing="field-type1"].type3 fieldset{padding:15px 0 10px 10px;margin:0 0 10px 0;border-bottom:none;background:#F7F7F7;}
+article[data-marketing="field-type1"].type3 legend{width:30%;padding:8px 5% 0 0;color:#2B417C;text-align:right;}
+article[data-marketing="field-type1"].type3 [data-form="select1"]{margin:0 15% 0 30%;}
+
+article[data-menu="flicking1"]+article[data-board="table2"]{margin:10px -7px 10px -7px;}
+article[data-marketing="field-type1"]+article[data-board="table2"]{margin:10px -7px 10px -7px;}
+
+/************************* 외환계산기 fieldset 타입1 **************************/
+article[data-board="text-box3"] p.calculator1{padding:10px 5px;font-size:14pxt;font-weight:bold;color:#000;text-align:center;box-shadow:1px 2px 3px #e6e6e6;border:1px solid #d0d0d0;border-top:0;border-radius:0 0 5px 5px;background:#f8f8f8;}
+article[data-board="text-box3"] .calculator1 em{color:#666;}
+article[data-board="text-box3"] .calculator1 em.usd{color:#8452B5;}
+article[data-board="text-box3"] .calculator1 em.won{color:#2B417C;}
+
+/************************* 외환수수료 안내 **************************/
+article[data-marketing="iframe-box"]{padding:10px 5px;font-size:14pxt;font-weight:bold;color:#000;text-align:center;}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>사내실시간게시판</title>
+</head>
+<body>  
+	<form id="talkingUpload" method="post" action="/RestService/jersey/twit/createnoimg" >
+		<center>
+		<h3><B>게시판 사진등록</B></h3><br>
+		<input type="hidden" name="reg_kind" value="1">
+		<input type="hidden" name="user_id" value="csm0222"> <BR>
+		<table><tr><td>
+			내용 : <input type="text" name="content" width="30" value=""> <BR>
+
+			<input type="hidden" name="inpUrl" value="http://www.daum.net"/><BR><BR>
+			</td></tr>
+		</table>
+		<input type="submit" value="사진업로드" ><BR>
+	</form>
+</body>
+</html>

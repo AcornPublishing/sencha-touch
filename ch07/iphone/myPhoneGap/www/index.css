@@ -1,0 +1,90 @@
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6 
+{
+	margin: 0pt;
+	padding: 0pt;
+}
+
+
+.pageTitle
+{
+	text-align: center;
+	color:#fff;
+	line-height:44px;
+}
+
+body 
+{
+  background:#fff repeat-y fixed 0 0;
+  color:#666;
+  font-family:Helvetica,'Lucida Grande',sans-serif;
+  line-height:1.5em;
+  margin:0px;
+  margin-bottom:20px;
+}
+
+.menu 
+{
+  background:rgba(64,64,64,0.5);
+  border: 1px solid rgba(128,128,128,0.5);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  clear:both;
+  margin:10px 6px 0;
+  width:295px;
+  padding:4px 0px 2px 10px;
+}
+
+a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+
+.topBar
+{
+    color:#eee;
+    font-size:1.2em;
+    text-align:center;
+    margin:0;
+    margin-top:0px;
+    padding:0;
+    background-image: url( 'image/header.png' );
+    background-repeat: repeat-x;
+    height:44px;
+    text-height:44px;
+}
+
+
+.back_button
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.6) 0px -1px 0px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 22px;
+    padding-top: 4px;
+	padding-bottom: 4px;
+    width: 60px;
+	line-height:22px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    position:absolute;
+	left:4px;
+	top:11px;
+    -webkit-border-image: url(image/back_button.png) 0 5 0 16 / 1px 5px 1px 16px stretch stretch;
+}
+
+
+
+
+
+
+
+

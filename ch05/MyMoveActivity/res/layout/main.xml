@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<EditText android:layout_height="wrap_content" android:text="입력하세요" android:id="@+id/editText1" android:layout_width="match_parent"></EditText>
+<Button android:id="@+id/button1" android:layout_height="wrap_content" android:text="새창 띄우기" android:layout_width="wrap_content"></Button>
+    
+</LinearLayout>

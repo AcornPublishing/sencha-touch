@@ -1,0 +1,45 @@
+<html>
+<head>
+	<script language="javascript">
+
+	var customer = {
+		id:111,
+		name:'-',
+		
+		getName:function()
+		{
+			return this.name;
+		},
+		setName:function(name)
+		{
+			this.name= name;					
+		}			
+	};
+
+	var btnSet;
+	var btnGet;
+	window.onload = function()
+	{
+	
+		btnSet = document.getElementsByName('btnSet')[0];
+		btnGet = document.getElementsByName('btnGet')[0];
+		
+		console.log(btnSet);
+		
+		btnSet.onclick=function(){
+			customer.setName('홍길동');
+		};
+		btnGet.onclick=function(){
+			console.log("---");
+			alert(customer.getName());
+		};
+	}
+	</script>
+</head>
+<body>
+	<form>
+	<input type="button" name="btnSet" value="설정">
+	<input type="button" name="btnGet" value="가져오기" >
+	</form>
+</body>
+</html>

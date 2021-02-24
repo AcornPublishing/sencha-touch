@@ -1,0 +1,68 @@
+Ext.setup({
+    tabletStartupScreen: 'tablet_startup.png',
+    phoneStartupScreen: 'phone_startup.png',
+    icon: 'icon.png',
+    glossOnIcon: false,
+
+    
+    onReady: function() {
+               
+
+        Ext.regModel('User1', {
+        	fields: [ 
+	        	{name:'id', type:'string'},
+	        	{name:'name',type:'string'},
+	        	{name:'tel', type:'string'},
+	        	{name:'addr', type:'string'}
+        	]
+        });
+
+
+        proxy1 = new Ext.data.AjaxProxy({        
+        	//model:'User1',	
+        	url:'ajaxdata.jsp',        	
+        	type:'ajax',
+        	
+        });
+        
+        store = new Ext.data.JsonStore({
+        	//autoLoad:true,
+        	model:'User',
+        	proxy:proxy1,
+        	root:'data'
+			 
+		
+        });   
+        store.load();
+        
+        console.log(store);
+
+             
+        list = new Ext.List({
+            store:store,
+            height:'400',
+            itemTpl:'<div>{id} {name} {tel} {addr}</div>',
+        });        
+        
+
+
+        new Ext.Panel({
+            fullscreen: true,
+            layout:'fit',
+            id: 'content',
+            scroll: 'Agetical',
+            dockedItems: [{
+                xtype: 'toolbar',
+                dock: 'top',
+                title: 'PROXY',
+            }],
+            items:[
+            {
+                xtype:'fieldset',
+                instructions: '리스트를 조회합니다.',
+                items:list,
+            }]
+            
+        });
+    }
+});

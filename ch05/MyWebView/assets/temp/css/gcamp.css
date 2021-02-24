@@ -1,0 +1,118 @@
+/************************* 지캠프>시장정보>선물환율 하단 텍스트 박스 **************************/
+/* ul[data-gcamp="coin-info"]{margin:0 0 20px 0;padding:0 13px;}
+ul[data-gcamp="coin-info"] li{padding:0 0 0 8px;height:20px;background:url("../img/icon_gcamp.png") no-repeat 0 -787px;background-size:26px auto;color:#777;}
+ul[data-gcamp="coin-info"] li:first-child{float:left;margin:0 0 20px 0;width:50%;background:none;padding:0;color:#F7931E;}
+ul[data-gcamp="coin-info"] li:first-child+li{margin:0 0 20px 50%;text-align:right;background:none;padding:0;color:#F7931E;} */
+
+/* 200110715 */
+ul[data-gcamp="coin-info"] {margin:5px 8px;}
+ul[data-gcamp="coin-info"] li {background:url("../img/bul_orange.png") no-repeat 0 6px;background-size:3px;padding-left:8px;font-size:12px;color:#717171;}
+
+
+/************************* 직원조회 // 조회목록 **************************/
+article[data-gcamp="staff"] {margin:0 0 20px 0;padding:0 13px;}
+article[data-gcamp="staff"] section[data-gcamp="inner"]{margin:0 0 10px 0;border:solid 1px #ddd;border-radius:8px;background:#FFF;}
+article[data-gcamp="staff"] table{width:100%;}
+article[data-gcamp="staff"] tbody th{padding:6px 0 6px 10px;text-align:left;vertical-align:middle;border-bottom:solid 1px #ddd;}
+article[data-gcamp="staff"] tbody td{padding:6px 10px 6px 0;border-bottom:solid 1px #ddd;color:#3B71B8;font-weight:bold;}
+article[data-gcamp="staff"] tbody tr:last-child th, article[data-gcamp="staff"] tbody tr:last-child td{border-bottom:none;}
+article[data-gcamp="staff"] tbody td span{float:left;margin:10px 10px 10px 0;color:#3B71B8;font-weight:bold;}
+/* 지원대상 // 지원내용 */
+article[data-gcamp="staff"] dl{padding:5px 10px;}
+article[data-gcamp="staff"] dl dt{padding:0 0 10px 0;font-weight:bold;color:#000;}
+article[data-gcamp="staff"] dl dd{padding:0 0 5px 0;font-weight:bold;letter-spacing:-1px;font-weight:normal;}
+article[data-gcamp="staff"] dl dd.m_0{padding:0 0 0 0;}
+article[data-gcamp="staff"] dl span{display:block;padding:5px 0 0 7px;font-weight:bold;letter-spacing:-1px;font-weight:normal;background:url("../img/bul_blue_s.png") no-repeat 0px 11px;background-size:3px auto;}
+article[data-gcamp="staff"] dl em {font-size:13px;}
+/* 지원내용 */
+article[data-gcamp="staff"] dl.type1{padding:5px 0 0 0;}
+article[data-gcamp="staff"] dl.type1 dt{padding:0 10px;}
+article[data-gcamp="staff"] dl.type1 dd{padding:10px;font-weight:normal;border-bottom:solid 1px #ddd;}
+article[data-gcamp="staff"] dl.type1 dd:last-child{border-bottom:none;}
+article[data-gcamp="staff"] dl.type1 span{display:inline-block;padding:1px 0 0 20px;font-weight:bold;color:#000;background:url("../img/icon_total.png") no-repeat 5px -217px;background-size:30px auto;}
+
+
+/************************* 직원조회 // 조회결과,리스트 **************************/
+article[data-gcamp="staff2"] {margin:0 0 20px 0;padding:10px 0 0 0;}
+article[data-gcamp="staff2"] h1{padding:0 0 0 22px;margin:0 0 15px 0;font-size:18px;color:#000;background:url("../img/bul_blue.png") no-repeat 10px 3px;background-size:7px auto;}
+article[data-gcamp="staff2"]+footer[class="bbs-more"]{border-top:solid 1px #D3D3D3;}
+
+article[data-gcamp="staff2"] section[data-gcamp="inner"] header{padding:7px 10px;margin:0 0 15px 0;border-top:solid 1px #ddd;border-bottom:solid 1px #ddd;
+background-image:-moz-linear-gradient(top,#F2F4F6,#E4E6E8);
+background-image:-webkit-gradient(linear, left top, left bottom, from(#F2F4F6), to(#E4E6E8));}
+article[data-gcamp="staff2"] section[data-gcamp="inner"] header h1{padding:3px 0 0 20px;margin:0;font-size:14px;background:url("../img/icon_total.png") no-repeat;background-size:30px auto;}
+article[data-gcamp="staff2"] section[data-gcamp="inner"] header h1.type1{background-position:5px -365px;}
+article[data-gcamp="staff2"] section[data-gcamp="inner"] header h1.type2{background-position:5px -405px;padding:3px 0 0 25px;}
+article[data-gcamp="staff2"] section[data-gcamp="inner"] header h1.type2 em {color:#3b71b8;}
+
+article[data-gcamp="staff-info"] {margin:0 12px 15px 12px;position:relative;padding:0 62px 0 0;}
+article[data-gcamp="staff-info"] a{display:block;padding:18px 0 8px 0;margin:0 70px 0 0;height:28px;font-size:16px;border:solid 1px #ddd;border-radius:5px 0 0 5px;
+background-image:-moz-linear-gradient(top,#fff,#F5F5F5);
+background-image:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#F5F5F5));}
+article[data-gcamp="staff-info"] a:first-child{display:inline-block;width:100%;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+article[data-gcamp="staff-info"] a:first-child>span:first-child{margin:0 0 0 10px;}
+article[data-gcamp="staff-info"] a span:nth-of-type(2){color:#777;}
+article[data-gcamp="staff-info"] .tc_1{color:#024784;}
+article[data-gcamp="staff-info"] .tc_2{color:#7397d7;}
+article[data-gcamp="staff-info"] .tc_3{color:#717171;}
+
+
+/************************* 직원조회 // 바로가기 버튼 **************************/
+article[data-gcamp="staff-info"] a:last-child{position:absolute;right:0px;top:0px;float:left;width:70px;height:54px;padding:0;margin:0;border-radius:0 5px 5px 0;text-align:center;border: 1px solid #ddd;background:#F5F5F5;}
+
+
+article[data-gcamp="staff-info"] a:last-child:hover,
+article[data-gcamp="staff-info"] a.ui-btn-active{display:block;box-shadow:inset 0 1px 3px #333;text-align:center;
+background-image:-moz-linear-gradient(top,#507CB2,#204484);
+background-image:-webkit-gradient(linear, left top, left bottom, from(#507CB2), to(#204484));}
+
+article[data-gcamp="staff-info"] a:last-child>span{display:block;padding:32px 0 0 0;font-weight:bold;font-size:12px;text-align:center;background:url("../img/icon_gcamp_staff.png") no-repeat center -253px;background-size:60px auto;}
+article[data-gcamp="staff-info"] a:last-child:hover>span,
+article[data-gcamp="staff-info"] a.ui-btn-active>span{color:#fff;background:url("../img/icon_gcamp_staff.png") no-repeat center -13px;background-size:60px auto;}
+
+
+/************************* 영업점조회 // 조회결과,리스트 **************************/
+article[data-gcamp="branch"] header[data-h1="type1"]{padding:0 0 0 13px;}
+
+article[data-gcamp="branch"] [data-h1="type1"]+[data-gcamp="inner"]{border-top:dotted 1px #ddd;}
+
+article[data-gcamp="branch"] section[data-gcamp="inner"]>a {display:block;padding:13px 30px 10px 13px;background:url("../img/icon_list1.png") no-repeat right;background-size:26px auto;}
+article[data-gcamp="branch"] section[data-gcamp="inner"]>a span:nth-of-type(1){font-weight:normal;color:#7397D7;}
+article[data-gcamp="branch"] section[data-gcamp="inner"]>a span:nth-of-type(2){color:#000;font-weight:bold;}
+article[data-gcamp="branch"] section[data-gcamp="inner"]>a span:nth-of-type(3){font-weight:normal;color:#777;}
+article[data-gcamp="branch"] section[data-gcamp="inner"]>a span:nth-of-type(4){font-weight:normal;padding:5px 0 0 0;color:#7397D7;font-size:11px;display:inline-block;width:99%;white-space:nowrap;overflow:hidden; text-overflow:ellipsis;}
+
+article[data-gcamp="branch"] section[data-gcamp="inner"]>span {display:block;padding:10px 95px 9px 10px;font-size:12px;letter-spacing:-1px;background:#EFEFEF;border-bottom:solid 1px #ddd;position:relative;}
+article[data-gcamp="branch"] section[data-gcamp="inner"]>span em{display:inline-block;width:99%;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+article[data-gcamp="branch"] section[data-gcamp="inner"]>span a[data-form="btn3"]{position:absolute;right:8px;top:4px;}
+
+
+article[data-gcamp="branch"] section[data-gcamp="inner"]+footer[class="bbs-more"]{margin:15px 0 0 0;border-top:solid 1px #ddd;}
+
+article[data-gcamp="staff_view"]{padding:10px;background:#F7F7F7;}
+
+article[data-gcamp="staff_view"] section[data-gcamp="top"] table{width:100%;}
+article[data-gcamp="staff_view"] section[data-gcamp="top"] th{padding-top:7px;text-align:left;font-size:14px;font-weight:normal;}
+article[data-gcamp="staff_view"] section[data-gcamp="top"] td{padding-top:7px;color:#777;font-size:14px;text-indent:-2px;}
+article[data-gcamp="staff_view"] section[data-gcamp="top"] img{padding:3px;border:solid 1px #ddd;border-radius:5px;width:92px;height:107px;box-shadow: 2px 2px 3px #ededed;-webkit-box-shadow: 2px 2px 3px #ededed;}
+article[data-gcamp="staff_view"] section[data-gcamp="top"] td[rowspan="4"]{padding:0 5px 5px 0;}
+article[data-gcamp="staff_view"] section[data-gcamp="top"] td[colspan="2"] {padding:0 0 0 3px;vertical-align:middle;}
+article[data-gcamp="staff_view"] section[data-gcamp="top"] tr:first-child th, article[data-gcamp="staff_view"] section[data-gcamp="top"] tr:first-child th+td {padding-top:10px;}
+
+article[data-gcamp="staff_view"] section[data-gcamp="bottom"]{padding:5px 0 0 0;margin:0 0 10px 0;border:solid 1px #ddd;border-radius:5px;background:#fff;}
+article[data-gcamp="staff_view"] section[data-gcamp="bottom"] table{width:100%;}
+article[data-gcamp="staff_view"] section[data-gcamp="bottom"] tbody th{padding:7px 0 7px 10px;text-align:left;vertical-align:middle;border-bottom:solid 1px #ddd;}
+article[data-gcamp="staff_view"] section[data-gcamp="bottom"] tbody td{vertical-align:middle;padding:7px 0 7px 0;border-bottom:solid 1px #ddd;position:relative;color:#717171;}
+article[data-gcamp="staff_view"] section[data-gcamp="bottom"] tbody tr:nth-of-type(2) td {padding-top:10px;}
+article[data-gcamp="staff_view"] section[data-gcamp="bottom"] tbody tr:first-child td{color:#3B71B8;}
+article[data-gcamp="staff_view"] section[data-gcamp="bottom"] tbody tr:nth-of-type(4) th, article[data-gcamp="staff_view"] section[data-gcamp="bottom"] tbody tr:nth-of-type(4) td {vertical-align:top;}
+article[data-gcamp="staff_view"] section[data-gcamp="bottom"] tbody tr:last-child th, article[data-gcamp="staff_view"] tbody tr:last-child td{border-bottom:none;}
+article[data-gcamp="staff_view"] section[data-gcamp="bottom"] tbody td a{vertical-align:middle;margin:0 5px 0 0;
+background: -moz-linear-gradient(top, #ffffff 0%, #fefefe 23%, #e9e9e9 49%, #e2e2e2 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(23%,#fefefe), color-stop(49%,#e9e9e9), color-stop(100%,#e2e2e2));}
+article[data-gcamp="staff_view"] section[data-gcamp="bottom"] tbody td a:hover {background-image:-moz-linear-gradient(top,#527FB6,#183D7F);border:solid 1px #2E4E82;
+background-image:-webkit-gradient(linear, left top, left bottom, from(#527FB6), to(#183D7F));}
+article[data-gcamp="staff_view"] section[data-gcamp="bottom"] tbody td span {color:#717171;}
+article[data-gcamp="staff_view"] section[data-gcamp="bottom"] ul{position:relative;padding:0 45px 0 0;margin-right:6px;}
+article[data-gcamp="staff_view"] section[data-gcamp="bottom"] ul li{display:inline-block;width:99%;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;color:#717171;}
+article[data-gcamp="staff_view"] section[data-gcamp="bottom"] tbody td.more a[data-form="btn4"]{position:absolute;right:-4px;top:0;}

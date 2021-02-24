@@ -1,0 +1,411 @@
+/************************* 글상세보기 하단 이전글/다음글 // 지캠프>규정/세칙,시장정보 **************************/
+footer[data-footer="bbs-mini-list"] {border-top:1px solid #ececec;}
+footer[data-footer="bbs-mini-list"] a{display:block;padding:11px 10px 10px 15px;overflow:hidden;margin-top:1px;white-space:nowrap;
+background: -moz-linear-gradient(top, #f7f7f7 0%, #ebebeb 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#ebebeb));}
+footer[data-footer="bbs-mini-list"] a:hover, .content_style1 ul li:hover {background:#dedede;}
+footer[data-footer="bbs-mini-list"] a.pre>b{display:inline-block;vertical-align:middle;padding:0 10px 0 15px;background:url("../img/icon_view_list1.png") no-repeat -9px -10px;background-size:30px auto;}
+footer[data-footer="bbs-mini-list"] a.next>b{display:inline-block;vertical-align:middle;padding:0 10px 0 15px;background:url("../img/icon_view_list1.png") no-repeat -9px -39px;background-size:30px auto;}
+footer[data-footer="bbs-mini-list"] a>span{display:inline-block;vertical-align:middle;margin:0;width:79%;font-weight:normal;}
+footer[data-footer="bbs-mini-list"] a span span{display:inline-block;vertical-align:middle;margin:0 15px 0 0;font-weight:normal;}
+footer[data-footer="bbs-mini-list"] a.more{padding:11px 10px 0 10px;vertical-align:middle;border-top:none;text-align:center;}
+footer[data-footer="bbs-mini-list"] a.more>span{display:inline-block;vertical-align:middle;height:26px;padding:0 0 0 15px;color:#2B417C;background:url("../img/icon_view_list1.png") no-repeat -10px -65px;background-size:30px auto;}
+
+/************************* 리스트상단타입1 // 지캠프>시장정보 **************************/
+article[data-header="bbs-top1"]{overflow:hidden;padding:0 10px 5px 8px;position:relative;}
+article[data-header="bbs-top1"].type1{background:#ececec;margin-bottom:1px;}
+article[data-header="bbs-top1"] h1{float:left;padding:0 5px 0 0;}
+article[data-header="bbs-top1"] h1 span {display:block;margin:3px 0 0 0;padding:5px 15px 0 5px;font-size:12px;color:#2b417c;font-weight:normal;}
+article[data-header="bbs-top1"] div{float:right;margin-top:8px;color:#5e5e5e;font-size:12px;}
+article[data-header="bbs-top1"] div .update, article[data-board="view-top1"] .text_date {margin:-2px 0 0 0;padding:0 0 0 22px;color:#5e5e5e;font-size:12px;}
+
+
+/************************* 리스트타입1 // 지캠프>규정/세칙 **************************/
+article[data-board="list1"]{border-bottom:solid 1px #D3D3D3;}
+article[data-board="list1"] li{border-top:solid 1px #D3D3D3;position:relative;}
+article[data-board="list1"] li.ui-btn-active{background:#fff;}
+article[data-board="list1"] a.ui-link{display:block;padding:12px 30px 13px 13px ! important;background:#fff;font-size:14px;background:url("../img/icon_list1.png") no-repeat right;background-size:26px auto;}
+article[data-board="list1"] a span:first-child{display:block;padding:0 0 3px 0;color:#444;font-weight:bold;}
+article[data-board="list1"] a span:first-child+span{display:block;padding:3px 0 7px 13px;color:#444;font-weight:normal;}
+article[data-board="list1"] a span:last-child{display:block;padding:0 0 0 26px;font-weight:normal;}
+article[data-board="list1"] a em{color:#F7931E;}
+
+article[data-board="list1"].type1{border-bottom:none;}
+article[data-board="list1"].type1 a{border-top:none;padding:12px 30px 11px 13px ! important;}
+article[data-board="list1"].type1 a span{display:block;color:#333;font-weight:normal;}
+article[data-board="list1"].type1 a span:first-child+span{color:#717171;padding:3px 0 0 0;}
+
+
+/************************* 리스트타입2 // 지캠프>규정/세칙,시장정보 **************************/
+article[data-board="list2"] {border-top:1px solid #d3d3d3;}
+article[data-board="list2"] li{border-bottom:solid 1px #D3D3D3;position:relative;}
+article[data-board="list2"] li.ui-btn-active{background:#fff;}
+article[data-board="list2"] a.ui-link:first-child{display:block;padding:10px 30px 10px 13px ! important;font-size:14px;background:url("../img/icon_list1.png") no-repeat right;background-size:26px auto;}
+article[data-board="list2"] a time{display:block;padding:1px 0 3px 0;font-size:11px;line-height:11px;color:#717171;width:99%;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+article[data-board="list2"] a span{display:block;width:99%;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;padding-top:3px;font-weight:bold;}
+article[data-board="list2"] [data-icon="file"]{position:absolute;right:32px;top:20px;}
+
+article[data-board="list2"].type1 [data-h1="type1"]{padding:15px 15px 0 15px;border-bottom:solid 1px #ddd;}
+article[data-board="list2"].type1 a:only-child{padding:15px 30px 15px 13px ! important;color:#333;font-size:16px;font-weight:bold;}
+
+article[data-board="list2"].type2 a.ui-link:first-child{background:none;}
+article[data-board="list2"].type2 a span{color:#717171;font-size:12px;}
+article[data-board="list2"].type2 a span em{display:inline-block;width:60px;color:#333;}
+article[data-board="list2"].type2 a span:last-child{position:absolute;top:9px;right:10px;float:left;width:auto;text-align:right;color:#7397D7;font-size:11px;}
+
+
+/************************* 리스트타입3 // 지캠프>IBK뉴스-언론스크랩,은행장메세지 **************************/
+article[data-board="list3"]{position:relative;}
+article[data-board="list3"] li{border-bottom:solid 1px #D3D3D3;position:relative;}
+article[data-board="list3"] li.ui-btn-active{background:#fff;}
+article[data-board="list3"] a.ui-link{display:block;padding:12px 20px 13px 10px ! important;font-size:14px;border-bottom:none;}
+article[data-board="list3"] a time{display:inline-block;padding:0 0 3px 0;font-size:11px;color:#717171;}
+article[data-board="list3"] a time+span{display:inline-block;padding:0 0 3px 3px;font-size:11px;color:#7397D7;}
+article[data-board="list3"] a time+span~span{display:block;width:95%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+article[data-board="list3"] [data-icon="file"]{position:absolute;right:2px;top:20px;}
+
+article[data-board="list3"].type3 li>div{display:none;}
+article[data-board="list3"].type3 li.on>div{display:block;}
+/* 고객관리>고객조회>CRETOP 리스트 */
+article[data-board="list3"].type1 a.ui-link{background:#fff url("../img/icon_total.png") no-repeat right -278px;background-size:30px auto;}
+article[data-board="list3"].type1 a span{display:block;color:#717171;}
+article[data-board="list3"].type1 a span:first-child{color:#333;margin:0 0 5px 0;}
+article[data-board="list3"].type1 a span.title{color:#333;width:95%;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+article[data-board="list3"].type1 a em{display:inline-block;margin:0 0 0 5px;padding:0 0 3px 0;color:#717171;font-size:11px;}
+article[data-board="list3"].type1 a em.fc_1{color:#7397D7;}
+/* 상품포탈>외화예금 리스트 */
+article[data-board="list3"].type2 header[data-h1="type1"]{padding:0 15px 0 13px;border-bottom:solid 1px #ddd;}
+article[data-board="list3"].type2 header[data-h1="type1"] h1{margin:16px 0 13px 0;}
+article[data-board="list3"].type2 a.ui-link:first-child{padding:6px 11px 5px 11px ! important;margin:0 30px 0 0;}
+article[data-board="list3"].type2 a span{display:block;font-size:11px;color:#717171;padding:0 30px 0 0;overflow:hidden;}
+article[data-board="list3"].type2 a span em{font-size:12px;}
+article[data-board="list3"].type2 a span:first-child{font-size:14px;color:#333;width:100%;padding:0 0 1px 0;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+article[data-board="list3"].type2 [data-form="icon1"]{position:absolute;right:9px;top:18px;padding:0 ! important;}
+
+article[data-board="list3"].type2 li>ul{display:none;}
+article[data-board="list3"].type2 li.on>ul{display:block;padding:13px 0 0 0;box-shadow:inset 0 2px 3px #ddd;background:#F6F6F6;}
+article[data-board="list3"].type2 li.on>ul li{display:block;padding:0 10px 15px 18px ;border-bottom:none;font-size:12px;color:#717171;background:url("../img/bul_blue_s.png") no-repeat 12px 8px;background-size:3px auto;}
+article[data-board="list3"].type2 li.on>ul li:last-child{padding:0 10px 15px 18px ;box-shadow:inset 0 -2px 3px #ddd;}
+
+/* 상품포탈>외화예금 리스트 */
+article[data-board="list3"].type3{position:relative;}
+article[data-board="list3"].type3 dl{margin:0 0 0 35px;}
+article[data-board="list3"].type3 dl dt{float:left;padding:3px 0;width:70px;font-weight:bold;font-size:13px;}
+article[data-board="list3"].type3 dl dd{margin:0 0 0 70px;padding:3px 0;}
+article[data-board="list3"].type3 dl dd span{display:block;width:95%;font-size:13px;colo:#777;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+article[data-board="list3"].type3 a.ui-link{padding:9px 20px 10px 10px ! important;background:url("../img/icon_list2.png") no-repeat right 25px;background-size:26px auto;}
+article[data-board="list3"].type3 [data-form="check1"] {position:absolute;top:25px;left:10px;}
+article[data-board="list3"].type3 li.on{background:#F6F6F6;}
+article[data-board="list3"].type3 li.on a.ui-link{background:url("../img/icon_list3.png") no-repeat right 25px;background-size:26px auto;}
+article[data-board="list3"].type3 li.on>div{margin:0 50px 10px 50px;border:solid 1px #ddd;border-radius:6px;background:#fff;}
+article[data-board="list3"].type3 li.on>div table{width:100%;}
+article[data-board="list3"].type3 li.on>div th{padding:5px;border-bottom:solid 1px #ddd;font-size:12px;}
+article[data-board="list3"].type3 li.on>div td{padding:5px;border-bottom:solid 1px #ddd;font-size:12px;color:#717171;}
+article[data-board="list3"].type3 li.on>div tr:last-child th{border-bottom:none;}
+article[data-board="list3"].type3 li.on>div tr:last-child td{border-bottom:none;}
+
+article[data-board="list3"].type3 li.on>div .type1 th{padding:5px 10px;border-right:solid 1px #ddd;text-align:left;}
+article[data-board="list3"].type3 li.on>div .type1 td{padding:5px 10px;text-align:right;}
+article[data-board="list3"].type3 li.on>div .type1 .t_left{text-align:left;}
+
+
+/************************* 리스트타입4 // 지캠프>IBK뉴스-홍보부동영상 **************************/
+article[data-board="list4"]{position:relative;}
+article[data-board="list4"] li{height:54px;border-bottom:solid 1px #D3D3D3;position:relative;display:block;}
+article[data-board="list4"] li.ui-btn-active{background:#fff;}
+article[data-board="list4"] a.ui-link{display:block;padding:8px 0 0 90px ! important;background:#fff;font-size:14px;background:url("../img/icon_list1.png") no-repeat right 15px;background-size:26px auto;}
+article[data-board="list4"] a time{display:inline-block;padding:0 0 3px 0;font-size:11px;color:#717171;}
+article[data-board="list4"] a span:first-child{display:inline-block;padding:0 0 3px 0;font-size:11px;color:#717171;}
+article[data-board="list4"] a span:first-child+span{display:inline-block;padding:0 0 3px 3px;font-size:11px;color:#7397D7;}
+article[data-board="list4"] a span:last-child{display:block;width:100%;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;font-weight:bold;}
+article[data-board="list4"] a.img{position:absolute;left:0px;top:0px;width:78px;height:54px;overflow:hidden;border-bottom:1px solid #fff;text-align:center;padding:0 ! important;background:#babfc5;}
+article[data-board="list4"] a.img img{width:78px;height:54px;}
+article[data-board="list4"] a.img .no_img{display:inline-block;width:20px;height:25px;margin:13px 0 0 0;text-indent:-9000px;background:url("../img/icon_total.png") no-repeat -5px -63px;background-size:30px auto;}
+article[data-board="list4"] li:last-child a.img {border-bottom:0;}
+
+/************************* 리스트하단 리스트 더보기 // 지캠프>규정/세칙,시장정보 **************************/
+footer[class="bbs-more"]{border-bottom:solid 1px #D3D3D3;}
+footer[class="bbs-more"] a{display:block;padding:11px 10px 0 10px;border-top:solid 1px #D3D3D3;
+background-image:-moz-linear-gradient(top,#F7F6F6,#ECEBEB);
+background-image:-webkit-gradient(linear, left top, left bottom, from(#F7F6F6), to(#ECEBEB));}
+footer[class="bbs-more"] a.pre span{display:block;height:26px;padding:0 0 0 15px;background:url("../img/icon_view_list1.png") no-repeat -10px -6px;background-size:30px auto;}
+footer[class="bbs-more"] a.next span{display:block;height:26px;padding:0 0 0 15px;background:url("../img/icon_view_list1.png") no-repeat -10px -35px;background-size:30px auto;}
+footer[class="bbs-more"] a span b{display:inline-block;margin:0 15px 0 0;}
+footer[class="bbs-more"] a.more{padding:19px 10px 0 10px;border-top:none;text-align:center;}
+footer[class="bbs-more"] a.more:hover{background: -moz-linear-gradient(top, #f7f7f7 0%, #ebebeb 100%) !important;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#ebebeb)) !important;}
+footer[class="bbs-more"] a.more span{display:inline-block;height:35px;padding:0 0 0 15px;color:#2B417C;background:url("../img/icon_view_list1.png") no-repeat -10px -63px;background-size:30px auto;}
+
+
+/************************* 상세보기상단 타입1 // 지캠프>규정/세칙,시장정보,마케팅정보>외환계산기 **************************/
+article[data-board="view-top1"]{padding:5px 7px 3px 5px;text-align:right;color:#717171;font-size:12px;background:#ECECEC;margin-bottom:1px;}
+article[data-board="view-top1"] .update {margin:-2px 0 0 0;padding:0 5px 0 22px;color:#5e5e5e;font-size:12px;} 
+
+article[data-board="view-top1"].type1{padding:3px 7px 5px 5px;text-align:right;border-radius:5px 5px 0 0;color:#fff;font-size:12px;
+background-image:-moz-linear-gradient(top,#5170C1,#2B4280);
+background-image:-webkit-gradient(linear, left top, left bottom, from(#5170C1), to(#2B4280));}
+article[data-board="view-top1"] h1 {position:absolute;top:5px;right:8px;}
+article[data-board="view-top1"] h1 span{display:normal;font-size:12px;color:#2b417c;}
+
+
+/************************* 상세보기상단 타입2 // 지캠프>행내메일,웹메일 **************************/
+article[data-board="view-top2"]{position:relative;padding:10px 15px 5px 50px;border-bottom:solid 1px #ddd;overflow:hidden;}
+article[data-board="view-top2"]>span:first-child{float:left;width:30px;line-height:120%;margin-left:-35px;}
+article[data-board="view-top2"]>p{padding:0 0 5px 0;font-weight:bold;}
+article[data-board="view-top2"]>time{font-size:12px;color:#717171;}
+article[data-board="view-top2"].calculator {border:1px solid red;}
+
+/************************* 상세보기상단 타입3 // 지캠프>행내메일,웹메일 **************************/
+article[data-board="view-top1"].type3{position:relative;font-size:12px;text-align:left;background:#fff;margin:15px 10px 0 10px;border-bottom:1px solid #d3d3d3;}/* 200110715 */
+article[data-board="view-top1"].type3 .copyright {color:#7397d7;font-size:12px;font-weight:bold;padding-right:2px;margin-left:2px;}
+article[data-board="view-top1"].type3 time {font-family:Myriad Pro;color:#999;padding-left:8px;background:url("../img/bg_line02.png") no-repeat 0 3px;background-size:auto 8px;}
+article[data-board="view-top1"].ml0 {margin:15px 0 0 0 !important;padding-left:12px;}
+
+
+/************************* 글상세보기 텍스트박스 // 지캠프>규정/세칙 **************************/
+article[data-board="text-box1"]{padding:10px;}
+article[data-board="text-box1"] img{width:100%;max-width:300px;}
+
+
+/************************* 글상세보기 텍스트박스2 // 지캠프>시장정보 **************************/
+article[data-board="text-box2"]{margin:0;padding:10px 13px;}
+article[data-board="text-box2"] h1{padding:5px 0 20px 1px;font-weight:bold;}
+article[data-board="text-box2"] p{padding:0 0 10px 0;font-size:12px;}
+article[data-board="text-box2"] address{padding:5px 0;text-align:right;color:#717171;font-size:12px;}
+article[data-board="text-box2"] figure{text-align:center;padding:10px;}
+article[data-board="text-box2"] img{width:100%;max-width:200px;}
+article[data-board="text-box2"] figure.type1 img{width:100%;max-width:300px;}
+.borderNo {border-top:0 !important;}
+.borderTop {border-top:1px solid #cbcbcf;}
+
+
+/************************* 글상세보기 텍스트박스2// 타이틀박스 // 지캠프>시장정보-주가-코스피,코스닥,은행/ **************************/
+article[data-board="text-box2"] dl{padding:10px 0 0 0;}
+article[data-board="text-box2"] dl dt{padding:0 0 5px 0;}
+/* 200110715 */
+article[data-board="text-box2"] dl .title {padding:0 0 0 5px;margin:0 -5px 15px 0;font-size:18px;color:#000;background:url("../img/bul_blue.png") no-repeat left 7px;background-size:7px auto;}
+article[data-board="text-box2"] dl .title span{font-weight:bold;padding:0 0 0 8px;background:url("../img/icon_gcamp.png") no-repeat 0px -735px;background-size:26px auto;}
+article[data-board="text-box2"] dl dd{border:solid 1px #ddd;margin:0 0 30px 0;}
+
+
+/************************* 글상세보기 텍스트박스3 // 마케팅정보>외환계산기결과상단 **************************/
+article[data-board="text-box3"]{margin:5px 10px 10px 10px;padding:5px 0;font-size:14px;}
+article[data-board="text-box3"] article[data-board="view-top3"] {text-align:right;padding:5px 0;border-radius:5px 5px 0 0;background: -moz-linear-gradient(top, #4562b3 0%, #2c4280 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4562b3), color-stop(100%,#2c4280));}
+article[data-board="text-box3"] article[data-board="view-top3"] .update {font-weight:normal;color:#fff;padding-left:9px;text-shadow:none;font-size:13px;}
+article[data-board="text-box3"] article[data-board="view-top3"] time {color:#fff;text-shadow:none;padding-right:5px;font-size:13px;}
+
+/************************* 글상세보기 텍스트박스4 // 지캠프>행내메일,웹메일 **************************/
+article[data-board="text-box4"]{padding:10px;font-size:14px;background:#F1F5FD;border-top:solid 1px #ABC1E7;box-shadow:inset 0 1px 0 #fff;-webkit-box-shadow:inset 0 1px 0 #fff;padding-left:15px;}
+article[data-board="text-box4"] div.type1{text-align:center;}
+
+
+/************************* 글상세보기 하단 이전글/다음글 // 지캠프>규정/세칙,시장정보 **************************/
+article[data-header="bbs-tit-zcamp"]{border-bottom:solid 1px #A4A4A4;border-top:solid 1px #fff;position:relative;
+background-image:-moz-linear-gradient(top,#F7F6F6,#ECEBEB);
+background-image:-webkit-gradient(linear, left top, left bottom, from(#F7F6F6), to(#ECEBEB));}
+article[data-header="bbs-tit-zcamp"] h1{border-bottom:solid 1px #fff;padding:5px 13px 2px 35px;
+background:url("../img/icon_gcamp.png") no-repeat 13px -10px;background-size:23px auto;}
+article[data-header="bbs-tit-zcamp"] h1 b{color:#024784;font-weight:normal;}
+article[data-header="bbs-tit-zcamp"]>a{position:absolute;right:13px;bottom:4px;color:#1B477D ! important;font-weight:normal ! important;font-size:13px;}
+
+
+/************************* 테이블타입1 // 지캠프>시장정보 **************************/
+article[data-board="table1"] table{width:100%;border-top:solid 1px #d3d3d3;}
+article[data-board="table1"] table tr{text-shadow:none;}
+article[data-board="table1"] thead.oneColor {background:#ececec;}
+article[data-board="table1"] thead.oneColor th strong {margin-top:-2px;}
+article[data-board="table1"] thead{background: -moz-linear-gradient(top, #ffffff 0%, #faf8f8 60%, #e5e5e5 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(60%,#faf8f8), color-stop(100%,#e5e5e5));}
+article[data-board="table1"] thead th{padding:8px 0 4px 2px;border:solid 1px #cecece;border-top:0;text-shadow:none;text-align:center;background:url("../img/bg_white.png") repeat-y 0 0;background-size:1px auto;vertical-align:middle;}
+article[data-board="table1"] thead th[rowspan="2"]:first-child {padding-left:0;}
+article[data-board="table1"] thead th[rowspan="2"] strong {padding:14px 0 0 0;min-height:50px;}
+article[data-board="table1"] thead th:first-child{border-left:none;}
+article[data-board="table1"] thead th:last-child{border-right:none;}
+/* article[data-board="table1"] thead tr:last-child th {padding-top:1px;background:url("../img/bg_white.png") repeat-y 0 0, url("../img/bg_white.png") repeat-x 0 0;background-size:1px auto;}*/
+article[data-board="table1"] thead tr:last-child th strong {color:#2b417c;}
+article[data-board="table1"] tbody th{padding:7px 0 4px 2px;background:#F5F5F5;color:#717171;font-weight:normal;border-bottom:solid 1px #cecece;}
+article[data-board="table1"] tbody th b{display:block;color:#333;font-family:Arial;paddig-top:1px;}
+article[data-board="table1"] tbody td{padding:7px 3px 3px 0;border:solid 1px #cecece;text-align:right;}
+article[data-board="table1"] tbody td:first-child{border-left:none;}
+article[data-board="table1"] tbody td:last-child{border-right:none;}
+
+/* 지캠프>결재목록 */ 
+article[data-board="table1"].type1 thead th, article[data-board="table1"].type1 thead td{border-right:1px solid #cecece;}
+article[data-board="table1"].type1 thead th{font-size:13px;border-left:1px solid #fff;padding:7px 0;background:#efefef;}
+article[data-board="table1"].type1 thead th:first-child{border-left:0;}
+article[data-board="table1"].type1 tbody td{padding:7px 0;text-align:center;font-size:12px;}
+article[data-board="table1"].type1 tbody td:first-child{background:none;letter-spacing:-1px;}
+article[data-board="table1"].type1 tbody td:last-child{letter-spacing:-1px;}
+article[data-board="table1"].type1 tbody .ui-link{color:#333;font-weight:normal;}
+
+/* 200110715 */
+article[data-board="table1"].type2 thead th[rowspan="2"]:first-child {line-height:40px;} 
+article[data-board="table1"].type2 tbody th {background:#fff;} 
+
+.money_box {position:relative;margin:15px 10px 0 10px;}
+.money_box strong, .money_box time {color:#717171;font-family:Arial;letter-spacing:-1px;font-size:12px;}
+.money_box time {position:absolute;top:0;right:0;}
+
+
+/************************* 테이블타입2 // 마케팅정보>외환계산기결과상단 **************************/
+article[data-board="table2"]{margin:10px;}
+article[data-board="table2"] [data-h1="type1"]{padding:0 0 0 7px;position:relative;}
+article[data-board="table2"] [data-h1="type1"] em{font-size:12px;}
+article[data-board="table2"] [data-h1="type1"] span{position:absolute;right:2px;bottom:-5px;font-size:12px;color:#717171;}
+article[data-board="table2"] table{width:100%;border:solid 1px #ddd;}
+article[data-board="table2"] thead th a:nth-of-type(1){float:left;}
+article[data-board="table2"] thead th a:nth-of-type(2){float:right;}
+article[data-board="table2"] thead th>span{display:inline-block;margin:3px 0 0 0;}
+article[data-board="table2"] tbody th{padding:8px 0 6px 15px;border-bottom:solid 1px #ddd;text-align:left;font-size:13px;font-weight:bold;color:#717171;letter-spacing:-1px;background:#F2F2F2 url("../img/icon_total.png") no-repeat 5px -120px;background-size:30px auto;}
+article[data-board="table2"] th em{font-size:11px;color:#717171;letter-spacing:-2px;}
+article[data-board="table2"] tbody td{padding:8px 7px 6px 0;border-bottom:solid 1px #ddd;text-align:right;font-weight:normal;color:#2B417C;letter-spacing:-1px;}
+article[data-board="table2"] tbody td em{color:#333;font-weight:bold;}
+article[data-board="table2"]>div{margin:10px 0 3px 0;font-size:12px;text-align:right;color:#717171;}
+
+article[data-board="table2"] .type1{margin:10px 0 0 0;}
+article[data-board="table2"] .type1 thead th{padding:0;border-bottom:solid 2px #C0CFD6;background:#EFF5F7;}
+article[data-board="table2"] .type1 th{padding:7px 0;font-size:12px;text-align:center;border:solid 1px #C0CFD6;background:#F2F2F2;}
+article[data-board="table2"] .type1 td{border:solid 1px #C0CFD6;color:#717171;font-size:12px;}
+article[data-board="table2"] .type1+p{margin:5px 0 20px 0;font-size:12px;letter-spacing:-1px;}
+
+article[data-board="table2"] .type2 thead th{border-bottom:solid 2px #C0CFD6;background:#EFF5F7;}
+article[data-board="table2"] .type2 th{padding:7px 0;font-size:12px;border:solid 1px #C0CFD6;background:#F2F2F2;text-align:center;}
+article[data-board="table2"] .type2 td{padding:7px 3px 7px 0;text-align:right;border:solid 1px #C0CFD6;color:#717171;font-size:12px;letter-spacing:-1px;}
+article[data-board="table2"] .type2 td:first-child{padding:7px 0;text-align:center;}
+
+article[data-board="table2"] .type3 thead th{padding:7px 0 7px 5px;border-bottom:solid 2px #C0CFD6;background:#EFF5F7;}
+article[data-board="table2"] .type3 th{padding:0 0 0 5px;font-size:12px;border:solid 1px #C0CFD6;background:#F2F2F2;position:relative;}
+article[data-board="table2"] .type3 th[rowspan="2"]{line-height:14px;}
+article[data-board="table2"] .type3 td{padding:3px 45px 3px 7px;text-align:right;border:solid 1px #C0CFD6;color:#717171;font-size:12px;letter-spacing:-1px;position:relative;}
+article[data-board="table2"] .type3 td input{height:20px;font-size:12px;}
+article[data-board="table2"] .type3 td em{position:absolute;right:5px;top:8px;color:#717171;}
+article[data-board="table2"] .type3 [data-form="layer1"]{position:absolute;right:8px;top:16%;}
+
+article[data-board="table2"] .type4 thead th{border-bottom:solid 2px #C0CFD6;background:#EFF5F7;}
+article[data-board="table2"] .type4 th{padding:7px 0 7px 5px;font-size:12px;border:solid 1px #C0CFD6;color:#333;background:#F2F2F2;position:relative;}
+article[data-board="table2"] .type4 th em{color:#F7931E;}
+article[data-board="table2"] .type4 td{padding:7px 7px 7px 7px;text-align:right;border:solid 1px #C0CFD6;color:#333;font-size:12px;letter-spacing:-1px;position:relative;}
+article[data-board="table2"] .type4 td.input{padding:3px 45px 3px 7px;}
+article[data-board="table2"] .type4 td.input input{height:17px;font-size:12px;}
+article[data-board="table2"] .type4 td em{position:absolute;right:5px;top:8px;}
+article[data-board="table2"] .type4 tr:last-child th{font-weight:bold;background:#E9E9E9;}
+article[data-board="table2"] .type4 tr:last-child th em{color:#333;}
+article[data-board="table2"] .type4 tr:last-child td{font-weight:bold;}
+
+
+/************************* 테이블타입3 // 지캠프>행내메일,웹메일 첨부파일 **************************/
+article[data-board="table3"] table{width:100%;}
+article[data-board="table3"] tbody th{padding:7px 0 0 10px;text-align:left;vertical-align:top;}
+article[data-board="table3"] tbody td{padding:7px 0 0 0;}
+article[data-board="table3"] tbody tr:first-child td span:last-child{display:block;color:#7397d7;} 
+article[data-board="table3"] tbody tr:first-child td span, article[data-board="table3"] tbody tr:first-child td span.first{color:#333;font-size:14px;font-weight:bold;} 
+article[data-board="table3"] tbody tr:first-child td span.first {padding-bottom:10px;font-size:14px !important;font-weight:bold !important;color:#333 !important;}
+article[data-board="table3"] tbody th {vertical-align:top;padding:7px 0 0 13px;font-size:12px;}
+article[data-board="table3"] [data-icon="mail"].file{display:block;font-size:12px;text-indent:0px;width:auto;height:auto;padding:0 0 0 18px;margin:0 0 3px 0;color:#7397D7;position:relative;}
+article[data-board="table3"] [data-icon="mail"].file em{display:inline-block;margin:0 7px 0 0;}
+article[data-board="table3"] [data-icon="mail"].file span{display:inline-block;margin:0 0 0 7px;padding:0 0 0 7px;color:#717171;font-size:12px;background:url("../img/bg_line02.png") no-repeat left 5px;background-size:auto 8px;}
+article[data-board="table3"] [data-icon="mail"].file:last-child{margin:0 0 8px 0;}
+article[data-board="table3"] a[data-icon="mail"].more,
+article[data-board="table3"] a[data-icon="mail"].hidden{position:absolute;right:5px;top:-1px;}
+article[data-board="table3"] td>div{position:relative;padding:0 30px 0 0;}
+
+.type1[data-board="table3"] {padding:0 10px;}
+.type1[data-board="table3"] table{margin:0 0 10px 0;border-bottom:1px solid #d3d3d3;}
+.type1[data-board="table3"] table td {background:url("../img/bg_line02.png") no-repeat 0 11px;background-size:auto 8px;padding-left:5px;}
+.type1[data-board="table3"] table th, .type1[data-board="table3"] table td {border-bottom:1px solid #dddddf;}
+.type1[data-board="table3"] table th {padding-left:5px;}
+.type1[data-board="table3"] table tbody tr:first-child td[colspan="2"] {background:none;padding-bottom:10px;}
+.type1[data-board="table3"] table tbody tr:first-child td[colspan="2"] span:last-child {color:#666;font-size:12px;padding-top:2px;font-weight:normal;}
+
+
+/************************* 테이블타입4 // 지캠프>결재상세보기 **************************/
+article[data-board="table4"]{padding:0 10px;}
+article[data-board="table4"] h1{color:#556D91;margin:0 0 5px 3px;}
+article[data-board="table4"] h1 em{color:#717171;font-size:12px;margin:0 0 0 -3px;}
+article[data-board="table4"] h1 em.unit{float:right;}
+article[data-board="table4"] table{width:100%;margin:0 0 5px 0;border:solid 1px #ddd;}
+article[data-board="table4"] th{padding:6px 0 5px 0;font-size:13px;vertical-align:top;border:solid 1px #ddd;background:#EEF1F5;}
+article[data-board="table4"] td{padding:6px 0 5px 0;font-size:13px;text-align:center;vertical-align:top;color:#717171;border:solid 1px #ddd;}
+article[data-board="table4"] td[colspan="3"], article[data-board="table4"] .td_left td{padding:7px 0 7px 10px;text-align:left;}
+article[data-board="table4"] textarea{width:90% !important;height:50px !important;}
+
+article[data-board="table4"].type1 td[rowspan="2"]{vertical-align:middle;}
+article[data-board="table4"].type1 tbody tr:last-child td:nth-of-type(1),
+article[data-board="table4"].type1 tbody tr:last-child td:nth-of-type(2){letter-spacing:-1px;}
+article[data-board="table4"].type1~footer[class="bbs-more"]{border-top:solid 1px #ddd;}
+
+.align_left[data-board="table4"] {margin-top:15px;}
+.align_left[data-board="table4"] th{text-align:left;padding:6px 0 5px 8px;vertical-align:middle;}
+.talign_left[data-board="table4"] th,
+.talign_left[data-board="table4"] td{text-align:left;padding-left:1em;vertical-align:middle;}
+.align_right td{text-align:right;padding-right:1em !important;color:#717171;}
+.borderNo[data-board="table4"] td{border-top:0 !important;border-bottom:0 !important;}
+
+/*고객조회>당행고객 리스트 테이블*/
+article[data-board="table4"].type1 .bg tr:first-child td:nth-of-type(1),
+article[data-board="table4"].type1 .bg tr:first-child td:nth-of-type(2){background:#f7f7f7;color:#333;}
+article[data-board="table4"].type1 .bg tr:last-child td,
+article[data-board="table4"].type1 .bg td[rowspan="2"]{border-bottom:none;}
+
+article[data-board="table4"].type1 .bg2 tr:first-child td:nth-of-type(1),
+article[data-board="table4"].type1 .bg2 tr:first-child td:nth-of-type(2),
+article[data-board="table4"].type1 .bg2 tr:first-child td:nth-of-type(3){background:#f7f7f7;color:#333;}
+article[data-board="table4"].type1 .bg2 tr:last-child td,
+article[data-board="table4"].type1 .bg2 td[rowspan="2"]{border-bottom:none;}
+
+article[data-board="table4"].type2 td{padding:2px 0;vertical-align:middle;}
+article[data-board="table4"].type2 .t_right{padding:7px 10px 7px 0;}
+
+
+article[data-board="table4"].type3 th{text-align:left;padding:7px 0 7px 10px;}
+article[data-board="table4"].type3 td{text-align:left;padding:7px 10px 7px 10px;}
+
+article[data-board="table4"].type4 td{text-align:right;padding:7px 10px 7px 10px;}
+
+
+
+
+
+/************************* 리스트타입5 // 지캠프>행내메일,웹메일  오픈시 살릴 CSS 
+[data-board="list5"]{margin:0 -15px;position:relative;}
+[data-board="list5"] li{border-bottom:solid 1px #D3D3D3;position:relative;}
+[data-board="list5"] li.ui-btn-active{background:#fff;}
+[data-board="list5"] a.ui-link{display:block;padding:12px 20px 13px 63px ! important;background:#fff;font-size:14px;}
+[data-board="list5"] a time{display:inline-block;padding:0 0 3px 0;font-size:11px;color:#717171;}
+[data-board="list5"] a time+span{display:inline-block;padding:0 0 3px 3px;font-size:11px;color:#7397D7;}
+[data-board="list5"] a span:last-child{display:block;width:95%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+[data-board="list5"] span[data-form="check1"]{position:absolute;left:10px;top:23px;}
+[data-board="list5"] li>span:nth-of-type(2){position:absolute;left:37px;top:23px;}
+[data-board="list5"] [data-icon="file"]{position:absolute;right:0px;top:20px;float:left;width:30px;height:30px;padding:0 ! important;text-indent:-9000px;background:url("../img/icon_total.png") no-repeat left top;background-size:30px auto;}**************************/
+
+/************************* 리스트타입5 // 지캠프>행내메일,웹메일  오픈시 죽일 CSS  **************************/
+article[data-board="list5"]{position:relative;border-top:1px solid #d3d3d3;}
+article[data-board="list5"] li{border-bottom:solid 1px #D3D3D3;position:relative;}
+article[data-board="list5"] li.ui-btn-active{background:#fff;}
+article[data-board="list5"] li a.ui-link:nth-of-type(1){letter-spacing:-2px;display:block;padding:12px 20px 13px 40px ! important;background:url("../img/icon_list1.png") no-repeat right 16px;background-size:26px auto;font-size:14px;}
+article[data-board="list5"] a time,
+article[data-board="list5"] [data-icon="num"]+span+em{display:inline-block;padding:0 0 0 5px;font-size:11px;color:#717171;font-weight:normal;letter-spacing:0;}
+article[data-board="list5"] a time+span,
+article[data-board="list5"] [data-icon="num"]+span{display:inline-block;padding:0 0 0 3px;font-size:11px;color:#7397d7;font-weight:normal;letter-spacing:0;}
+article[data-board="list5"] a span:last-child{font-weight:bold;letter-spacing:-1px;display:block;width:90%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;margin-top:2px;}
+article[data-board="list5"] span[data-form="check1"]{position:absolute;left:10px;top:23px;}
+article[data-board="list5"] li>span:nth-of-type(1){position:absolute;left:10px;top:23px;}
+article[data-board="list5"] [data-icon="file"]{position:absolute;right:32px;top:22px;}
+article[data-board="list5"] a time:first-child {padding-left:0;}
+/************************* 리스트타입5 // 지캠프>행내메일,웹메일  오픈시 죽일 CSS  **************************/
+article[data-board="list5"].type1 li a.ui-link:nth-of-type(1){display:block;padding:11px 20px 10px 10px ! important;}
+/************************* 리스트타입5 // 지캠프>행내메일,웹메일  오픈시 죽일 CSS  **************************/
+article[data-board="list5"].type2 li a.ui-link:nth-of-type(1){display:block;padding:12px 20px 13px 10px ! important;}
+article[data-board="list5"].type2 li a span:nth-of-type(2){display:block;width:95%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+article[data-board="list5"].type2 li a em{display:inline-block;margin:0 5px 0 0;font-size:11px;color:#717171;}
+article[data-board="list5"].type2 li a em[data-icon="num"]{margin:0;}
+article[data-board="list5"].type2 li a em+ span {display:inline-block;padding:0 0 0 0;font-size:11px;color:#7397D7;font-weight:normal;letter-spacing:-2px;}
+
+article[data-board="list5"].type3 li a.ui-link:nth-of-type(1){display:block;padding:14px 35px 16px 10px ! important;}
+article[data-board="list5"].type3 [data-icon="file"]{position:absolute;right:23px;top:11px;}
+
+
+/************************* 리스트타입5 // 오버후  **************************/
+article[data-board="list2"] li:hover, article[data-board="list5"] li:hover, article[data-board="list4"] li:hover, article[data-gcamp="branch"] section[data-gcamp="inner"] > a:hover {background-size:none !important;background: -moz-linear-gradient(top, #f7f7f7 0%, #ebebeb 100%) !important;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#ebebeb)) !important;background-size:auto !important;}

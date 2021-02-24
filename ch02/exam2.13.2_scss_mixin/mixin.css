@@ -1,0 +1,8 @@
+/* Mixin */
+#style1 {
+  background: aqua;
+  -webkit-border-radius: 10px; }
+
+#style2 {
+  background: fuchsia;
+  -webkit-border-radius: 14px; }

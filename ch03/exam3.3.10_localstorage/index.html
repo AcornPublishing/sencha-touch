@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script language="javascript">
+		if(window.localStorage == "undefined")
+		{
+			alert("localStorage를 사용할 수 없습니다.");
+			return;
+		}
+		var btnSet;
+		var btnGet;
+		window.onload = function()
+		{
+		
+			btnSet = document.getElementById('btnSet');
+			btnGet = document.getElementById('btnGet');
+			
+			console.log(btnSet);
+			
+			btnSet.onclick=function(){
+				window.localStorage.setItem("data", document.getElementById("storageSet").value);
+			};
+			btnGet.onclick=function(){
+				document.getElementById("storageGet").value = window.localStorage.getItem("data");
+			};
+		}		
+	</script>
+</head>
+<body>	
+	<center>
+	<BR><B>localStorage의 사용 </B><BR>
+	<BR>
+	입력값 : <input type="text" id="storageSet" size="20"><BR>
+	<input type="button" id="btnSet" value="저장">
+	<hr>
+	출력값 : <input type="text" id="storageGet" size="20"><BR>
+	<input type="button" id="btnGet" value="불러오기">
+
+</body>
+</html>

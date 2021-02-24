@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+  <title>사내실시간게시판</title>
+  <script language="javascript">
+    function fileupload()
+    {
+        alert('사진을 Upload합니다.');
+		
+		document.talkingUpload.method="post";
+        document.talkingUpload.action=
+        	"/RestService/jersey/twit/create/";
+            <!--"./jsp/sns_talking_upload.jsp";-->
+        document.talkingUpload.target = 
+            "uploadTalkingRsult";
+        document.talkingUpload.submit();
+    }  	
+  	</script>
+</head>
+<body>  
+    <div id="talkingUploadDiv">	
+	<form  id="talkingUpload" name="talkingUpload" method="post" enctype="multipart/form-data">
+		<center>
+		<h3><B>게시판 사진등록</B></h3><br>
+		<input type="hidden" name="reg_kind" value="2">
+		<input type="hidden" id="tu_user_id" name="user_id" value=""> <BR>
+		<table><tr><td>
+		내용 : <input type="text" id="tu_content" name="content" width="30" value=""> <BR>
+		* 게시판에 등록할 파일을 선택하십시요.
+		<input type="file" name="talking_img"><BR><BR>
+		</td></tr>
+		</table>
+		<input type="button" value="사진업로드" onClick="javascript:fileupload();"><BR>
+	</form>
+	</div>
+</body>
+</html>

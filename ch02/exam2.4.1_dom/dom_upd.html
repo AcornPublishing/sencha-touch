@@ -1,0 +1,65 @@
+<html>
+<head>
+<script language="javascript">
+	function addElement()
+	{
+		var elementDiv1 = document.documentElement.getElementsByTagName("div")[0];
+		var inputElement = document.createElement("input");			
+		inputElement.name="add";
+		inputElement.value="추가합니다.";
+		var textElement = document.createElement("br");
+		elementDiv1.appendChild(textElement);
+		elementDiv1.appendChild(inputElement);
+	}
+	
+	function delElement()
+	{
+		var elementDiv1 = document.documentElement.getElementsByTagName("div")[0];
+		if(elementDiv1.hasChildNodes())
+		{
+			for(i=0;i<elementDiv1.childNodes.length;i++)
+			{
+				if(elementDiv1.childNodes[i].name=="add")
+				{
+					elementDiv1.removeChild(elementDiv1.childNodes[i]);					
+				}
+			}
+		}
+	}	
+	
+	
+	function updElement()
+	{
+		var elementDiv1 = document.documentElement.getElementsByTagName("div")[0];
+
+		var imgElement = document.createElement("img");			
+		imgElement.name="add";
+		imgElement.width="80";
+		imgElement.height="80";
+		imgElement.src="./img/춘향.png";
+				
+		if(elementDiv1.hasChildNodes())
+		{
+			for(i=0;i<elementDiv1.childNodes.length;i++)
+			{
+				if(elementDiv1.childNodes[i].name=="add")
+				{
+					elementDiv1.replaceChild(imgElement, elementDiv1.childNodes[i]);					
+				}
+			}
+		}
+	}	
+</script>
+</head>
+<body>
+	<form>
+		<div name="div1">
+			<input type="text" name="CustName1" size="20" value="성춘향"><br>
+			<input type="text" name="CustAge1" size="5" value="16">
+		</div>
+		<input type="button" value="추가" onclick="javascript:addElement();">
+		<input type="button" value="삭제" onclick="javascript:delElement();">
+		<input type="button" value="변경" onclick="javascript:updElement();"><BR>
+	</form>
+</body>
+</html>

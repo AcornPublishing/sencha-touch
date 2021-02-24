@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		838AA6FB14257EC900ECBE1E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 838AA6FA14257EC900ECBE1E /* Reachability.m */; };
+		838AA6FD14257F2000ECBE1E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838AA6FC14257F2000ECBE1E /* CoreLocation.framework */; };
+		838AA6FF14257F2D00ECBE1E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838AA6FE14257F2D00ECBE1E /* MessageUI.framework */; };
+		838AA70114257F3C00ECBE1E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838AA70014257F3C00ECBE1E /* SystemConfiguration.framework */; };
+		83CEE1081425234600E978A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CEE1071425234600E978A8 /* UIKit.framework */; };
+		83CEE10A1425234600E978A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CEE1091425234600E978A8 /* Foundation.framework */; };
+		83CEE10C1425234600E978A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CEE10B1425234600E978A8 /* CoreGraphics.framework */; };
+		83CEE1121425234600E978A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83CEE1101425234600E978A8 /* InfoPlist.strings */; };
+		83CEE1151425234600E978A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CEE1141425234600E978A8 /* main.m */; };
+		83CEE1181425234600E978A8 /* myHybridLocalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CEE1171425234600E978A8 /* myHybridLocalAppDelegate.m */; };
+		83CEE11B1425234600E978A8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83CEE1191425234600E978A8 /* MainWindow.xib */; };
+		83FFB0E61425E13D00C0F6DA /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 83FFB0E51425E13D00C0F6DA /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		838AA6F914257EC900ECBE1E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		838AA6FA14257EC900ECBE1E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		838AA6FC14257F2000ECBE1E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		838AA6FE14257F2D00ECBE1E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		838AA70014257F3C00ECBE1E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		83CEE1031425234500E978A8 /* myHybridLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myHybridLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CEE1071425234600E978A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83CEE1091425234600E978A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83CEE10B1425234600E978A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83CEE10F1425234600E978A8 /* myHybridLocal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myHybridLocal-Info.plist"; sourceTree = "<group>"; };
+		83CEE1111425234600E978A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83CEE1131425234600E978A8 /* myHybridLocal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myHybridLocal-Prefix.pch"; sourceTree = "<group>"; };
+		83CEE1141425234600E978A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83CEE1161425234600E978A8 /* myHybridLocalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myHybridLocalAppDelegate.h; sourceTree = "<group>"; };
+		83CEE1171425234600E978A8 /* myHybridLocalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myHybridLocalAppDelegate.m; sourceTree = "<group>"; };
+		83CEE11A1425234600E978A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		83FFB0E51425E13D00C0F6DA /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83CEE1001425234500E978A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838AA70114257F3C00ECBE1E /* SystemConfiguration.framework in Frameworks */,
+				838AA6FF14257F2D00ECBE1E /* MessageUI.framework in Frameworks */,
+				838AA6FD14257F2000ECBE1E /* CoreLocation.framework in Frameworks */,
+				83CEE1081425234600E978A8 /* UIKit.framework in Frameworks */,
+				83CEE10A1425234600E978A8 /* Foundation.framework in Frameworks */,
+				83CEE10C1425234600E978A8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83CEE0F81425234500E978A8 = {
+			isa = PBXGroup;
+			children = (
+				83CEE10D1425234600E978A8 /* myHybridLocal */,
+				83CEE1061425234600E978A8 /* Frameworks */,
+				83CEE1041425234500E978A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83CEE1041425234500E978A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83CEE1031425234500E978A8 /* myHybridLocal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83CEE1061425234600E978A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				838AA70014257F3C00ECBE1E /* SystemConfiguration.framework */,
+				838AA6FE14257F2D00ECBE1E /* MessageUI.framework */,
+				838AA6FC14257F2000ECBE1E /* CoreLocation.framework */,
+				83CEE1071425234600E978A8 /* UIKit.framework */,
+				83CEE1091425234600E978A8 /* Foundation.framework */,
+				83CEE10B1425234600E978A8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83CEE10D1425234600E978A8 /* myHybridLocal */ = {
+			isa = PBXGroup;
+			children = (
+				83FFB0E41425E13D00C0F6DA /* www */,
+				838AA6F914257EC900ECBE1E /* Reachability.h */,
+				838AA6FA14257EC900ECBE1E /* Reachability.m */,
+				83CEE1161425234600E978A8 /* myHybridLocalAppDelegate.h */,
+				83CEE1171425234600E978A8 /* myHybridLocalAppDelegate.m */,
+				83CEE1191425234600E978A8 /* MainWindow.xib */,
+				83CEE10E1425234600E978A8 /* Supporting Files */,
+			);
+			path = myHybridLocal;
+			sourceTree = "<group>";
+		};
+		83CEE10E1425234600E978A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83CEE10F1425234600E978A8 /* myHybridLocal-Info.plist */,
+				83CEE1101425234600E978A8 /* InfoPlist.strings */,
+				83CEE1131425234600E978A8 /* myHybridLocal-Prefix.pch */,
+				83CEE1141425234600E978A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83FFB0E41425E13D00C0F6DA /* www */ = {
+			isa = PBXGroup;
+			children = (
+				83FFB0E51425E13D00C0F6DA /* index.html */,
+			);
+			path = www;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83CEE1021425234500E978A8 /* myHybridLocal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83CEE11E1425234600E978A8 /* Build configuration list for PBXNativeTarget "myHybridLocal" */;
+			buildPhases = (
+				83CEE0FF1425234500E978A8 /* Sources */,
+				83CEE1001425234500E978A8 /* Frameworks */,
+				83CEE1011425234500E978A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myHybridLocal;
+			productName = myHybridLocal;
+			productReference = 83CEE1031425234500E978A8 /* myHybridLocal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CEE0FA1425234500E978A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = IBKSYSTEM;
+			};
+			buildConfigurationList = 83CEE0FD1425234500E978A8 /* Build configuration list for PBXProject "myHybridLocal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83CEE0F81425234500E978A8;
+			productRefGroup = 83CEE1041425234500E978A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83CEE1021425234500E978A8 /* myHybridLocal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83CEE1011425234500E978A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CEE1121425234600E978A8 /* InfoPlist.strings in Resources */,
+				83CEE11B1425234600E978A8 /* MainWindow.xib in Resources */,
+				83FFB0E61425E13D00C0F6DA /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83CEE0FF1425234500E978A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CEE1151425234600E978A8 /* main.m in Sources */,
+				83CEE1181425234600E978A8 /* myHybridLocalAppDelegate.m in Sources */,
+				838AA6FB14257EC900ECBE1E /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83CEE1101425234600E978A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83CEE1111425234600E978A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83CEE1191425234600E978A8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83CEE11A1425234600E978A8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83CEE11C1425234600E978A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CEE11D1425234600E978A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		83CEE11F1425234600E978A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myHybridLocal/myHybridLocal-Prefix.pch";
+				INFOPLIST_FILE = "myHybridLocal/myHybridLocal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83CEE1201425234600E978A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myHybridLocal/myHybridLocal-Prefix.pch";
+				INFOPLIST_FILE = "myHybridLocal/myHybridLocal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83CEE0FD1425234500E978A8 /* Build configuration list for PBXProject "myHybridLocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CEE11C1425234600E978A8 /* Debug */,
+				83CEE11D1425234600E978A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CEE11E1425234600E978A8 /* Build configuration list for PBXNativeTarget "myHybridLocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CEE11F1425234600E978A8 /* Debug */,
+				83CEE1201425234600E978A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CEE0FA1425234500E978A8 /* Project object */;
+}

@@ -1,0 +1,9 @@
+/* Selector Inheritance */
+div, .extend {
+  font-size: 20px; }
+
+.extend {
+  font-size: 16px; }
+
+div.child, .child.extend {
+  font-size: 10px; }

@@ -1,0 +1,32 @@
+<html>
+<head>
+	<script language="javascript">
+		function checkDom()
+		{
+			var elementDiv1 = document.documentElement.getElementsByTagName("div")[0];		
+			console.log(elementDiv1);
+			console.log(elementDiv1.nodeName);
+			console.log(elementDiv1.nodeValue);
+			console.log("----------------------------------------");
+			console.log(elementDiv1.previousSibling);
+			console.log(elementDiv1.nextSibling);
+			console.log("----------------------------------------");
+			console.log(elementDiv1.childNodes);
+			console.log(elementDiv1.firstChild);
+			console.log(elementDiv1.lastChild);
+		}
+	</script>
+</head>
+<body>
+	<form>
+		<div name="div1">
+			인명사항<BR>
+			<input type="text" name="CustName1" size="20" value="홍길동"><br>
+			<input type="text" name="CustAge1" size="5" value="23"></div>
+		<div name="div2">
+			<input type="text" name="CustName2" size="20" value="임꺽정"><br>
+			<input type="text" name="CustAge2" size="5" value="23"></div>
+		<BR>
+		<input type="button" name="btnSubmit" value="확인" onclick="javascript:checkDom();">
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, target-densityDpi=device-dpi">
+<script type="text/javascript" src="hybrid.js"></script>
+</head>
+<body>
+<form>
+<B>Mobile 단말과의 연동 구현</B><BR>
+<hr>
+<B>Native호출</B><BR>
+	<input type="button" onClick="javascript:callNative('Here I am..')" value="Native호출"><BR>
+	Native:<input type="text" name="Fo_Native" size="12"><BR>
+<hr>
+<B>User화면호출</B><BR>
+	<input type="button" value="CallNative" onClick="javascript:Js_callUserView()"><BR>
+	UserView:<input type="text" name="Fo_UserView" size="12"><BR>
+<hr>
+<B>전화걸기</B><BR>
+<input type="text" name="Fo_Phone" size="12" VALUE="01026239687"><BR>
+<input type="button" value="전화" onClick="javascript:Js_callPhone()"><BR>
+<hr>
+<B>SMS문자보내기</B><BR>
+<input type="text" name="Fo_Sms" size="12" VALUE="01026239687"><BR>
+<input type="button" value="SMS보내기" onClick="javascript:Js_callSms()"><BR>
+<hr>
+</form>
+</body>
+</html>	

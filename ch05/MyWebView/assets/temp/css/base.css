@@ -1,0 +1,89 @@
+/*********************** Base Reset Style ***********************/
+@font-face {font-family:"Malgun Gothic";src:url(malgun.ttf);}
+* {font-weight:normal;}
+html{-webkit-text-size-adjust:none;}
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button , figure, article, a, span{margin:0;padding:0;-webkit-text-size-adjust:none ! important;word-wrap:break-word ! important; font-family: arial, "맑은 고딕", Dotum, Verdana, AppleGothic, Sans-serif;font-size:14px;color:#333;}
+body, input, textarea, select, table, button, artcle{color:#444444;font-size:14px;}
+textarea{border:1px solid #bbbbbb;border-radius:3px;box-shadow:inset 1px 1px 2px #cecece;-webkit-box-shadow:inset 2px 2px 2px #cecece;}
+select{padding:2px 0;width:100%;font-size:13px;text-indent:3px;}
+body{word-wrap:break-word;color:#000;word-break:break-all;line-height:1.25em;}
+img, fieldset{border:0;}
+ul, ol{list-style-type:none;list-style-image:none;}
+a, .ui-link{font-size:inherit;color:#333;font-weight:normal;cursor:pointer;text-decoration:none;text-shadow:none ! important;border:none;outline:0;background:none;}
+.ui-body-c .ui-link{color:#333;}
+em, address{font-size:inherit;font-family:inherit;line-height:inherit;font-weight:inherit;font-style:inherit;}
+hr{display:none !important;}
+.ui-controlgroup-label{display:none !important;}
+table{border-spacing:0;border-collapse:collapse;}
+img{vertical-align:text-top;}
+caption,legend{display:none;}
+aside, figure, figcaption, nav, header, footer{display:block;}
+label{text-shadow:none ! important;}
+
+
+.block_none{display:none;}
+.ui-btn.block_none{display:none ! important;}
+
+
+
+.ellipsis{display:inline-block;width:95%;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+.cursor_no,
+.cursor_no:hover,
+footer[class="bbs-more"] a.more.cursor_no:hover{opacity:0.4;filter:alpha(opacity=40);cursor:default;background:#ccc ! important;}
+
+
+.hover_no{opacity:0.3;filter:alpha(opacity=30);cursor:default;background:none ! important;}
+
+
+.ui-btn-hover-c,
+.ui-btn-down-c,
+.ui-btn-active{background:none;}
+
+.min-width-480px input.ui-input-text, .min-width-480px textarea.ui-input-text, .min-width-480px .ui-input-search{width:auto;}
+.ui-focus,
+.ui-shadow{box-shadow:none ! important;-webkit-box-shadow:none ! important;}
+.eng {font-family:Arial;padding-top:1px;}
+
+.ui-shadow-inset.ui-focus {box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset ! important;-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset ! important;}
+
+pre.text_pre1{font-size:11px;color:#717171;}
+/************************* 리스트타입1 // 마케팅정보>외환계산기결과하단 **************************/
+article[data-base="list-ul1"] {margin:0;}
+article[data-base="list-ul1"] ul{margin:0 0 20px 0;}
+ul[data-base="list-ul1"] li, article[data-base="list-ul1"] li{font-size:12px;padding:3px 10px 2px 26px;font-weight:bold;color:#777;background:url("../img/bul_blue_s.png") no-repeat 16px 10px;background-size:3px 3px;}
+
+ul[data-base="list-ul2"], article[data-base="list-ul2"]{margin:0;overflow:hidden;}
+ul[data-base="list-ul2"] li, article[data-base="list-ul2"] li{font-size:12px;padding:0 5px 0 0;}
+ul[data-base="list-ul2"] li span:first-child, article[data-base="list-ul2"] li span:first-child{display:inline-block;padding:0 5px 0 13px;font-size:12px;font-weight:bold;background:url("../img/bul_blue_s.png") no-repeat left;background-size:3px auto;}
+ul[data-base="list-ul2"] li span:last-child, article[data-base="list-ul2"] li span:last-child{display:inline-block;font-size:12px;font-weight:normal;color:#777;}
+ul[data-base="list-ul2"].type1 li, article[data-base="list-ul2"].type1 li{float:left;width:47%;}
+ul[data-base="list-ul2"].type1 li span:first-child, article[data-base="list-ul2"].type1 li span:first-child{padding:0 5px 0 8px;background:url("../img/bul_blue_s.png") no-repeat left;background-size:3px auto;}
+
+ul[data-base="list-ul3"], article[data-base="list-ul3"]{margin:0;overflow:hidden;}
+ul[data-base="list-ul3"] li, article[data-base="list-ul3"] li{font-size:12px;padding:0 10px 0 8px;margin:0 0 5px 0;font-size:12px;color:#777;background:url("../img/bul_blue_s.png") no-repeat left;background-size:3px 3px;}
+ul[data-base="list-ul3"].type1, article[data-base="list-ul3"].type1{margin:0 -10px 20px -10px;}
+
+ul[data-base="list-ul4"], article[data-base="list-ul4"]{margin:0;overflow:hidden;}
+ul[data-base="list-ul4"] li, article[data-base="list-ul4"] li{font-size:12px;padding:0 5px 0 0;}
+ul[data-base="list-ul4"] li span:first-child, article[data-base="list-ul4"] li span:first-child{display:block;padding:0 0 0 6px;font-size:12px;font-weight:bold;background:url("../img/bul_gray_s.png") no-repeat left;background-size:3px auto;}
+ul[data-base="list-ul4"] li span:last-child, article[data-base="list-ul4"] li span:last-child{display:block;padding:0 0 10px 0;font-size:12px;font-weight:normal;color:#777;}
+
+
+
+/************************* EM 스타일 **************************/
+.red{color:#F7931E ! important;} /* 오렌지색으로 통일로 인한 일괄적용으로 일단 수정*/
+.orange{color:#F7931E ! important;}/* 미결, 휴가, 출장 */
+.blue{color:#1482FD ! important;}/* 완료 */
+.yellow{color:#F7931E ! important;}/* 반려 */
+.none{color:inherit ! important;}/* 반려 */
+
+
+
+.t_right{text-align:right ! important;}
+
+
+
+
+._eml_ards.ui-link,
+._eml_ards.ui-link:hover{background:none ! important;border:none ! important;padding:0 ! important;margin:0 ! important;font-weight:normal;cursor:none;}
